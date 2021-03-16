@@ -22,5 +22,56 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/RegistrarUsuario</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>974f5c3c-9858-45d0-82cb-0747753012ca</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Registro/DatoRegistros</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>974f5c3c-9858-45d0-82cb-0747753012ca</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Sexo</value>
+         <variableId>5baaba61-1525-478b-ab5b-f929eafe139e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>974f5c3c-9858-45d0-82cb-0747753012ca</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Nombre</value>
+         <variableId>c331ded7-e8ea-490b-905a-8dfe9e45f86f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>974f5c3c-9858-45d0-82cb-0747753012ca</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>APPaterno</value>
+         <variableId>42c0fe2e-e1b9-42f5-99dc-049433344ea1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>974f5c3c-9858-45d0-82cb-0747753012ca</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>APMaterno</value>
+         <variableId>eb975cf1-242b-4d15-b2e4-629183226e16</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>974f5c3c-9858-45d0-82cb-0747753012ca</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Telefono</value>
+         <variableId>deac406e-365d-4a37-98f4-bea07b7f9929</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>974f5c3c-9858-45d0-82cb-0747753012ca</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Correo</value>
+         <variableId>1e40958e-7f53-40ef-b0f0-d2d2ac613b2a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>974f5c3c-9858-45d0-82cb-0747753012ca</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Contrasena</value>
+         <variableId>6a941e74-7017-41b8-8a73-484971c81e97</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

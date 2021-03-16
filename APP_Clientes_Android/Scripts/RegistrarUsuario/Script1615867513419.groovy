@@ -23,36 +23,27 @@ Mobile.delay(5)
 
 Mobile.hideKeyboard()
 
-Mobile.setText(findTestObject('Object Repository/Registro/android.widget.EditText - Ingresa tu nombre'), 'Fernando', 0)
+Mobile.setText(findTestObject('Object Repository/Registro/android.widget.EditText - Ingresa tu nombre'), nombre, 0)
 
 Mobile.takeScreenshot()
 
-Mobile.setText(findTestObject('Object Repository/Registro/android.widget.EditText - Apellido paterno'), 'Martinez', 0)
+Mobile.setText(findTestObject('Object Repository/Registro/android.widget.EditText - Apellido paterno'), appaterno, 0)
 
-Mobile.setText(findTestObject('Object Repository/Registro/android.widget.EditText - Apellido paterno (1)'), 'Quezada', 0)
+Mobile.setText(findTestObject('Object Repository/Registro/android.widget.EditText - Apellido paterno (1)'), apmaterno, 0)
 
 Mobile.scrollToText('Mujer')
 
-//selectSexo = findTestObject('Object Repository/Registro/android.widget.TextView - Hombre')
+Mobile.tap(findTestObject('Registro/android.widget.TextView - Hombre', [('sexo') : sexo]), 0)
 
-//selectSexo.findProperty('text').setValue('Mujer')
+Mobile.setText(findTestObject('Object Repository/Registro/android.widget.EditText - Ingresa tu nmero'), telefono, 0)
 
-//selectSexo.findProperty('text').setActive(true)
-
-Mobile.tap(findTestObject('Object Repository/Registro/android.widget.TextView - Hombre',['text']:'Mujer'), 0)
-
-//Mobile.tap(selectSexo, 0)
-
-Mobile.setText(findTestObject('Object Repository/Registro/android.widget.EditText - Ingresa tu nmero'), '8121715239', 0)
-
-Mobile.setText(findTestObject('Object Repository/Registro/android.widget.EditText - Correo electrnico'), 'testing.syp@gmail.com', 
-    0)
+Mobile.setText(findTestObject('Object Repository/Registro/android.widget.EditText - Correo electrnico'), correo, 0)
 
 Mobile.takeScreenshot()
 
 Mobile.tap(findTestObject('Object Repository/Registro/android.widget.Button - Continuar'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Registro/android.widget.EditText'), 'Passw0rd$', 0)
+Mobile.setText(findTestObject('Object Repository/Registro/android.widget.EditText'), contrasena, 0)
 
 Mobile.takeScreenshot()
 

@@ -5,4 +5,53 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>feb0d4da-c30e-4ec5-b06f-3f65f6dcfecd</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c331ded7-e8ea-490b-905a-8dfe9e45f86f</id>
+      <masked>false</masked>
+      <name>nombre</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>42c0fe2e-e1b9-42f5-99dc-049433344ea1</id>
+      <masked>false</masked>
+      <name>appaterno</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>eb975cf1-242b-4d15-b2e4-629183226e16</id>
+      <masked>false</masked>
+      <name>apmaterno</name>
+   </variable>
+   <variable>
+      <defaultValue>'Hombre'</defaultValue>
+      <description></description>
+      <id>5baaba61-1525-478b-ab5b-f929eafe139e</id>
+      <masked>false</masked>
+      <name>sexo</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>deac406e-365d-4a37-98f4-bea07b7f9929</id>
+      <masked>false</masked>
+      <name>telefono</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1e40958e-7f53-40ef-b0f0-d2d2ac613b2a</id>
+      <masked>false</masked>
+      <name>correo</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6a941e74-7017-41b8-8a73-484971c81e97</id>
+      <masked>false</masked>
+      <name>contrasena</name>
+   </variable>
 </TestCaseEntity>
