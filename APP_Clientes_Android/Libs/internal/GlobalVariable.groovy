@@ -9,6 +9,11 @@ import com.kms.katalon.core.main.TestCaseMain
  */
 public class GlobalVariable {
      
+    /**
+     * <p>Profile QA : Ubicacion del archivo .apk a instalar</p>
+     */
+    public static Object Ubicacion_APK
+     
 
     static {
         try {
@@ -16,6 +21,7 @@ public class GlobalVariable {
 			selectedVariables += TestCaseMain.getGlobalVariables(RunConfiguration.getExecutionProfile())
             selectedVariables += RunConfiguration.getOverridingParameters()
     
+            Ubicacion_APK = selectedVariables['Ubicacion_APK']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)

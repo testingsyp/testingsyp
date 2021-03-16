@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Registro" time="106.247" tests="1" failures="0" skips="0" errors="0">
+   <testsuite name="Registro" tests="1" failures="0" errors="0" time="106.247" skips="0" timestamp="2021-03-15 21:49:34" hostname="a2274333 - localhost" id="Test Suites/Flujo Base/Registro">
+      <properties>
+         <property name="deviceName" value="HUAWEI HUAWEI (Android 6.0.1)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/a2274333/Documents/GitHub/APP_Clientes_Android/APP_Clientes_Android/Reports/20210315_214931/Flujo Base/Registro/20210315_214931"/>
+         <property name="logFiles" value="/Users/a2274333/Documents/GitHub/APP_Clientes_Android/APP_Clientes_Android/Reports/20210315_214931/Flujo Base/Registro/20210315_214931/execution0.log, /Users/a2274333/Documents/GitHub/APP_Clientes_Android/APP_Clientes_Android/Reports/20210315_214931/Flujo Base/Registro/20210315_214931/appium.log"/>
+         <property name="attachments" value="/Users/a2274333/Documents/GitHub/APP_Clientes_Android/APP_Clientes_Android/Reports/20210315_214931/Flujo Base/Registro/20210315_214931/1615866639926.png, /Users/a2274333/Documents/GitHub/APP_Clientes_Android/APP_Clientes_Android/Reports/20210315_214931/Flujo Base/Registro/20210315_214931/1615866639926.png, /Users/a2274333/Documents/GitHub/APP_Clientes_Android/APP_Clientes_Android/Reports/20210315_214931/Flujo Base/Registro/20210315_214931/1615866651247.png, /Users/a2274333/Documents/GitHub/APP_Clientes_Android/APP_Clientes_Android/Reports/20210315_214931/Flujo Base/Registro/20210315_214931/1615866651247.png, /Users/a2274333/Documents/GitHub/APP_Clientes_Android/APP_Clientes_Android/Reports/20210315_214931/Flujo Base/Registro/20210315_214931/1615866662662.png, /Users/a2274333/Documents/GitHub/APP_Clientes_Android/APP_Clientes_Android/Reports/20210315_214931/Flujo Base/Registro/20210315_214931/1615866662662.png, /Users/a2274333/Documents/GitHub/APP_Clientes_Android/APP_Clientes_Android/Reports/20210315_214931/Flujo Base/Registro/20210315_214931/1615866665754.png, /Users/a2274333/Documents/GitHub/APP_Clientes_Android/APP_Clientes_Android/Reports/20210315_214931/Flujo Base/Registro/20210315_214931/1615866665754.png, /Users/a2274333/Documents/GitHub/APP_Clientes_Android/APP_Clientes_Android/Reports/20210315_214931/Flujo Base/Registro/20210315_214931/1615866670959.png, /Users/a2274333/Documents/GitHub/APP_Clientes_Android/APP_Clientes_Android/Reports/20210315_214931/Flujo Base/Registro/20210315_214931/1615866670959.png"/>
+         <property name="hostName" value="a2274333 - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.20.2&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="7.9.1.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.20.2"/>
+         <property name="deviceModel" value="HUAWEI"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="deviceManufacturer" value="HUAWEI"/>
+         <property name="deviceId" value="L5Y7N15A12003367"/>
+         <property name="deviceName" value="HUAWEI HUAWEI (Android 6.0.1)"/>
+         <property name="deviceOSVersion" value="6.0.1"/>
+      </properties>
+      <testcase name="Test Cases/RegistrarUsuario" time="100.768" classname="Test Cases/RegistrarUsuario" status="PASSED">
+         <system-out><![CDATA[2021-03-15 21:49:34 - [TEST_CASE][PASSED] - Test Cases/RegistrarUsuario: Test Cases/RegistrarUsuario
+
+2021-03-15 21:49:35 - [TEST_STEP][PASSED] - startApplication("/Users/a2274333/Downloads/AppClientes_327-clear-preprod-debug.apk", true): Started app at: '/Users/a2274333/Downloads/AppClientes_327-clear-preprod-debug.apk'
+
+2021-03-15 21:49:35 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2021-03-15 21:49:36 - [MESSAGE][INFO] - Appium server started on port 53,765
+
+2021-03-15 21:50:32 - [MESSAGE][PASSED] - Started app at: '/Users/a2274333/Downloads/AppClientes_327-clear-preprod-debug.apk'
+
+2021-03-15 21:50:32 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2021-03-15 21:50:37 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2021-03-15 21:50:37 - [TEST_STEP][PASSED] - tap(findTestObject("Registro/android.widget.Button - Permitir"), 0): Tapped on element 'Object Repository/Registro/android.widget.Button - Permitir'
+
+2021-03-15 21:50:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-15 21:50:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Registro/android.widget.Button - Permitir'
+
+2021-03-15 21:50:39 - [TEST_STEP][PASSED] - tap(findTestObject("Registro/android.widget.Button - Allow"), 0): Tapped on element 'Object Repository/Registro/android.widget.Button - Allow'
+
+2021-03-15 21:50:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-15 21:50:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Registro/android.widget.Button - Allow'
+
+2021-03-15 21:50:39 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2021-03-15 21:50:42 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a2274333/Documents/GitHub/APP_Clientes_Android/APP_Clientes_Android/Reports/20210315_214931/Flujo Base/Registro/20210315_214931/1615866639926.png]]
+
+2021-03-15 21:50:42 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a2274333/Documents/GitHub/APP_Clientes_Android/APP_Clientes_Android/Reports/20210315_214931/Flujo Base/Registro/20210315_214931/1615866639926.png]]
+
+2021-03-15 21:50:42 - [TEST_STEP][PASSED] - tap(findTestObject("Registro/android.widget.Button - Registrarme"), 0): Tapped on element 'Object Repository/Registro/android.widget.Button - Registrarme'
+
+2021-03-15 21:50:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-15 21:50:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Registro/android.widget.Button - Registrarme'
+
+2021-03-15 21:50:42 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2021-03-15 21:50:47 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2021-03-15 21:50:47 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2021-03-15 21:50:49 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2021-03-15 21:50:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Registro/android.widget.EditText - Ingresa tu nombre"), "Fernando", 0): Text 'Fernando' has been set to element 'Object Repository/Registro/android.widget.EditText - Ingresa tu nombre'
+
+2021-03-15 21:50:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-15 21:50:51 - [MESSAGE][PASSED] - Text 'Fernando' has been set to element 'Object Repository/Registro/android.widget.EditText - Ingresa tu nombre'
+
+2021-03-15 21:50:51 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2021-03-15 21:50:51 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a2274333/Documents/GitHub/APP_Clientes_Android/APP_Clientes_Android/Reports/20210315_214931/Flujo Base/Registro/20210315_214931/1615866651247.png]]
+
+2021-03-15 21:50:51 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a2274333/Documents/GitHub/APP_Clientes_Android/APP_Clientes_Android/Reports/20210315_214931/Flujo Base/Registro/20210315_214931/1615866651247.png]]
+
+2021-03-15 21:50:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Registro/android.widget.EditText - Apellido paterno"), "Martinez", 0): Text 'Martinez' has been set to element 'Object Repository/Registro/android.widget.EditText - Apellido paterno'
+
+2021-03-15 21:50:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-15 21:50:53 - [MESSAGE][PASSED] - Text 'Martinez' has been set to element 'Object Repository/Registro/android.widget.EditText - Apellido paterno'
+
+2021-03-15 21:50:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Registro/android.widget.EditText - Apellido paterno (1)"), "Quezada", 0): Text 'Quezada' has been set to element 'Object Repository/Registro/android.widget.EditText - Apellido paterno (1)'
+
+2021-03-15 21:50:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-15 21:50:55 - [MESSAGE][PASSED] - Text 'Quezada' has been set to element 'Object Repository/Registro/android.widget.EditText - Apellido paterno (1)'
+
+2021-03-15 21:50:55 - [TEST_STEP][PASSED] - scrollToText("Mujer"): Scrolling to text 'Mujer' successfully
+
+2021-03-15 21:50:58 - [MESSAGE][PASSED] - Scrolling to text 'Mujer' successfully
+
+2021-03-15 21:50:58 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Registro/android.widget.TextView - Hombre"), 0): Tapped on element 'Object Repository/Registro/android.widget.TextView - Hombre'
+
+2021-03-15 21:50:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-15 21:50:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Registro/android.widget.TextView - Hombre'
+
+2021-03-15 21:50:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Registro/android.widget.EditText - Ingresa tu nmero"), "8121715239", 0): Text '8121715239' has been set to element 'Object Repository/Registro/android.widget.EditText - Ingresa tu nmero'
+
+2021-03-15 21:50:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-15 21:51:00 - [MESSAGE][PASSED] - Text '8121715239' has been set to element 'Object Repository/Registro/android.widget.EditText - Ingresa tu nmero'
+
+2021-03-15 21:51:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Registro/android.widget.EditText - Correo electrnico"), "testing.syp@gmail.com", 0): Text 'testing.syp@gmail.com' has been set to element 'Object Repository/Registro/android.widget.EditText - Correo electrnico'
+
+2021-03-15 21:51:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-15 21:51:02 - [MESSAGE][PASSED] - Text 'testing.syp@gmail.com' has been set to element 'Object Repository/Registro/android.widget.EditText - Correo electrnico'
+
+2021-03-15 21:51:02 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2021-03-15 21:51:03 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a2274333/Documents/GitHub/APP_Clientes_Android/APP_Clientes_Android/Reports/20210315_214931/Flujo Base/Registro/20210315_214931/1615866662662.png]]
+
+2021-03-15 21:51:03 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a2274333/Documents/GitHub/APP_Clientes_Android/APP_Clientes_Android/Reports/20210315_214931/Flujo Base/Registro/20210315_214931/1615866662662.png]]
+
+2021-03-15 21:51:03 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Registro/android.widget.Button - Continuar"), 0): Tapped on element 'Object Repository/Registro/android.widget.Button - Continuar'
+
+2021-03-15 21:51:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-15 21:51:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Registro/android.widget.Button - Continuar'
+
+2021-03-15 21:51:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Registro/android.widget.EditText"), "Passw0rd$", 0): Text 'Passw0rd$' has been set to element 'Object Repository/Registro/android.widget.EditText'
+
+2021-03-15 21:51:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-15 21:51:05 - [MESSAGE][PASSED] - Text 'Passw0rd$' has been set to element 'Object Repository/Registro/android.widget.EditText'
+
+2021-03-15 21:51:05 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2021-03-15 21:51:06 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a2274333/Documents/GitHub/APP_Clientes_Android/APP_Clientes_Android/Reports/20210315_214931/Flujo Base/Registro/20210315_214931/1615866665754.png]]
+
+2021-03-15 21:51:06 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a2274333/Documents/GitHub/APP_Clientes_Android/APP_Clientes_Android/Reports/20210315_214931/Flujo Base/Registro/20210315_214931/1615866665754.png]]
+
+2021-03-15 21:51:06 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Registro/android.widget.Button - Continuar (1)"), 0): Tapped on element 'Object Repository/Registro/android.widget.Button - Continuar (1)'
+
+2021-03-15 21:51:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-15 21:51:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Registro/android.widget.Button - Continuar (1)'
+
+2021-03-15 21:51:06 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Registro/android.widget.CheckBox - Acepto los trminos y condiciones"), 0): Tapped on element 'Object Repository/Registro/android.widget.CheckBox - Acepto los trminos y condiciones'
+
+2021-03-15 21:51:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-15 21:51:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Registro/android.widget.CheckBox - Acepto los trminos y condiciones'
+
+2021-03-15 21:51:10 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Registro/android.widget.Button - Registrar"), 0): Tapped on element 'Object Repository/Registro/android.widget.Button - Registrar'
+
+2021-03-15 21:51:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-15 21:51:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Registro/android.widget.Button - Registrar'
+
+2021-03-15 21:51:10 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2021-03-15 21:51:11 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a2274333/Documents/GitHub/APP_Clientes_Android/APP_Clientes_Android/Reports/20210315_214931/Flujo Base/Registro/20210315_214931/1615866670959.png]]
+
+2021-03-15 21:51:11 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a2274333/Documents/GitHub/APP_Clientes_Android/APP_Clientes_Android/Reports/20210315_214931/Flujo Base/Registro/20210315_214931/1615866670959.png]]
+
+2021-03-15 21:51:11 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2021-03-15 21:51:15 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-03-15 21:49:34 - [TEST_SUITE][PASSED] - Registro: Test Cases/RegistrarUsuario]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

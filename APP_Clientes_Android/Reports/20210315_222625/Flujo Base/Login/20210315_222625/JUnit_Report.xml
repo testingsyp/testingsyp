@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login" time="85.169" tests="2" failures="0" skips="0" errors="1">
+   <testsuite name="Login" tests="2" failures="0" errors="1" time="85.169" skips="0" timestamp="2021-03-15 22:26:27" hostname="a2274333 - localhost" id="Test Suites/Flujo Base/Login">
+      <properties>
+         <property name="deviceName" value="HUAWEI HUAWEI (Android 6.0.1)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/a2274333/Documents/GitHub/APP_Clientes_Android/APP_Clientes_Android/Reports/20210315_222625/Flujo Base/Login/20210315_222625"/>
+         <property name="logFiles" value="/Users/a2274333/Documents/GitHub/APP_Clientes_Android/APP_Clientes_Android/Reports/20210315_222625/Flujo Base/Login/20210315_222625/execution0.log, /Users/a2274333/Documents/GitHub/APP_Clientes_Android/APP_Clientes_Android/Reports/20210315_222625/Flujo Base/Login/20210315_222625/appium.log"/>
+         <property name="attachments" value="/Users/a2274333/Documents/GitHub/APP_Clientes_Android/APP_Clientes_Android/Reports/20210315_222625/Flujo Base/Login/20210315_222625/1615868861871.png, /Users/a2274333/Documents/GitHub/APP_Clientes_Android/APP_Clientes_Android/Reports/20210315_222625/Flujo Base/Login/20210315_222625/1615868861871.png"/>
+         <property name="hostName" value="a2274333 - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.20.2&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="7.9.1.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.20.2"/>
+         <property name="deviceModel" value="HUAWEI"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="deviceManufacturer" value="HUAWEI"/>
+         <property name="deviceId" value="L5Y7N15A12003367"/>
+         <property name="deviceName" value="HUAWEI HUAWEI (Android 6.0.1)"/>
+         <property name="deviceOSVersion" value="6.0.1"/>
+      </properties>
+      <testcase name="Test Cases/InstalaryAbrir" time="75.508" classname="Test Cases/InstalaryAbrir" status="PASSED">
+         <system-out><![CDATA[2021-03-15 22:26:28 - [TEST_CASE][PASSED] - Test Cases/InstalaryAbrir: Test Cases/InstalaryAbrir
+
+2021-03-15 22:26:28 - [TEST_STEP][PASSED] - startApplication("/Users/a2274333/Downloads/AppClientes_327-clear-preprod-debug.apk", true): Started app at: '/Users/a2274333/Downloads/AppClientes_327-clear-preprod-debug.apk'
+
+2021-03-15 22:26:28 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2021-03-15 22:26:30 - [MESSAGE][INFO] - Appium server started on port 55,410
+
+2021-03-15 22:27:31 - [MESSAGE][PASSED] - Started app at: '/Users/a2274333/Downloads/AppClientes_327-clear-preprod-debug.apk'
+
+2021-03-15 22:27:31 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2021-03-15 22:27:36 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2021-03-15 22:27:36 - [TEST_STEP][PASSED] - tap(findTestObject("InstalaryAbrir/android.widget.Button - Permitir"), 0): Tapped on element 'Object Repository/InstalaryAbrir/android.widget.Button - Permitir'
+
+2021-03-15 22:27:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-15 22:27:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/InstalaryAbrir/android.widget.Button - Permitir'
+
+2021-03-15 22:27:37 - [TEST_STEP][PASSED] - tap(findTestObject("InstalaryAbrir/android.widget.Button - Allow"), 0): Tapped on element 'Object Repository/InstalaryAbrir/android.widget.Button - Allow'
+
+2021-03-15 22:27:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-15 22:27:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/InstalaryAbrir/android.widget.Button - Allow'
+
+2021-03-15 22:27:38 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-03-15 22:27:41 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-03-15 22:27:41 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2021-03-15 22:27:43 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a2274333/Documents/GitHub/APP_Clientes_Android/APP_Clientes_Android/Reports/20210315_222625/Flujo Base/Login/20210315_222625/1615868861871.png]]
+
+2021-03-15 22:27:43 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a2274333/Documents/GitHub/APP_Clientes_Android/APP_Clientes_Android/Reports/20210315_222625/Flujo Base/Login/20210315_222625/1615868861871.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login" time="1.047" classname="Test Cases/Login" status="ERROR">
+         <error type="ERROR" message="Test Cases/Login FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.Delay() is applicable for argument types: (java.lang.Integer) values: [3]
+Possible solutions: delay(java.lang.Number), delay(java.lang.Number, com.kms.katalon.core.model.FailureHandling), every(), any(), sleep(long), getAt(java.lang.String)
+	at Login.run(Login:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1615868785268.run(TempTestSuite1615868785268.groovy:39)
+"/>
+         <system-out><![CDATA[2021-03-15 22:27:43 - [TEST_CASE][ERROR] - Test Cases/Login: Test Cases/Login FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.Delay() is applicable for argument types: (java.lang.Integer) values: [3]
+Possible solutions: delay(java.lang.Number), delay(java.lang.Number, com.kms.katalon.core.model.FailureHandling), every(), any(), sleep(long), getAt(java.lang.String)
+	at Login.run(Login:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1615868785268.run(TempTestSuite1615868785268.groovy:39)
+
+
+2021-03-15 22:27:44 - [TEST_STEP][PASSED] - tap(findTestObject("Login/android.widget.Button - Iniciar Sesin"), 0): Tapped on element 'Object Repository/Login/android.widget.Button - Iniciar Sesin'
+
+2021-03-15 22:27:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-15 22:27:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/android.widget.Button - Iniciar Sesin'
+
+2021-03-15 22:27:44 - [TEST_STEP][PASSED] - Delay(3): null]]></system-out>
+         <system-err><![CDATA[2021-03-15 22:27:43 - [TEST_CASE][ERROR] - Test Cases/Login: Test Cases/Login FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.Delay() is applicable for argument types: (java.lang.Integer) values: [3]
+Possible solutions: delay(java.lang.Number), delay(java.lang.Number, com.kms.katalon.core.model.FailureHandling), every(), any(), sleep(long), getAt(java.lang.String)
+	at Login.run(Login:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1615868785268.run(TempTestSuite1615868785268.groovy:39)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-03-15 22:26:27 - [TEST_SUITE][ERROR] - Login: Test Cases/Login FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.Delay() is applicable for argument types: (java.lang.Integer) values: [3]
+Possible solutions: delay(java.lang.Number), delay(java.lang.Number, com.kms.katalon.core.model.FailureHandling), every(), any(), sleep(long), getAt(java.lang.String)
+	at Login.run(Login:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1615868785268.run(TempTestSuite1615868785268.groovy:39)]]></system-out>
+      <system-err><![CDATA[2021-03-15 22:26:27 - [TEST_SUITE][ERROR] - Login: Test Cases/Login FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.Delay() is applicable for argument types: (java.lang.Integer) values: [3]
+Possible solutions: delay(java.lang.Number), delay(java.lang.Number, com.kms.katalon.core.model.FailureHandling), every(), any(), sleep(long), getAt(java.lang.String)
+	at Login.run(Login:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1615868785268.run(TempTestSuite1615868785268.groovy:39)]]></system-err>
+   </testsuite>
+</testsuites>
