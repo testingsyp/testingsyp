@@ -10,7 +10,8 @@ import com.kms.katalon.core.main.TestCaseMain
 public class GlobalVariable {
      
     /**
-     * <p>Profile QA : Ubicacion del archivo .apk a instalar</p>
+     * <p>Profile Kobiton : Ubicacion del archivo .apk a instalar
+Profile QA : Ubicacion del archivo .apk a instalar</p>
      */
     public static Object Ubicacion_APK
      

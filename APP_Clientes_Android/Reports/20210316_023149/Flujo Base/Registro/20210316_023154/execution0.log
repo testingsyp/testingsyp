@@ -2,8 +2,8 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2021-03-16T01:14:05</date>
-  <millis>1615878845275</millis>
+  <date>2021-03-16T02:31:57</date>
+  <millis>1615883517350</millis>
   <sequence>0</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -18,21 +18,21 @@
   <property name="stopImmediately">false</property>
 </record>
 <record>
-  <date>2021-03-16T01:14:05</date>
-  <millis>1615878845288</millis>
+  <date>2021-03-16T02:31:57</date>
+  <millis>1615883517364</millis>
   <sequence>1</sequence>
   <level>RUN_DATA</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>logMessage</method>
   <thread>1</thread>
-  <message>hostName = a2274333 - 192.168.0.10</message>
+  <message>hostName = a2274333 - localhost</message>
   <nestedLevel>0</nestedLevel>
   <escapedJava>false</escapedJava>
-  <property name="hostName">a2274333 - 192.168.0.10</property>
+  <property name="hostName">a2274333 - localhost</property>
 </record>
 <record>
-  <date>2021-03-16T01:14:05</date>
-  <millis>1615878845292</millis>
+  <date>2021-03-16T02:31:57</date>
+  <millis>1615883517367</millis>
   <sequence>2</sequence>
   <level>RUN_DATA</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -44,21 +44,21 @@
   <property name="os">Mac OS X 64bit</property>
 </record>
 <record>
-  <date>2021-03-16T01:14:05</date>
-  <millis>1615878845292</millis>
+  <date>2021-03-16T02:31:57</date>
+  <millis>1615883517369</millis>
   <sequence>3</sequence>
   <level>RUN_DATA</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>logMessage</method>
   <thread>1</thread>
-  <message>hostAddress = 192.168.0.10</message>
+  <message>hostAddress = 127.0.0.1</message>
   <nestedLevel>0</nestedLevel>
   <escapedJava>false</escapedJava>
-  <property name="hostAddress">192.168.0.10</property>
+  <property name="hostAddress">127.0.0.1</property>
 </record>
 <record>
-  <date>2021-03-16T01:14:05</date>
-  <millis>1615878845294</millis>
+  <date>2021-03-16T02:31:57</date>
+  <millis>1615883517371</millis>
   <sequence>4</sequence>
   <level>RUN_DATA</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -70,8 +70,8 @@
   <property name="katalonVersion">7.9.1.208</property>
 </record>
 <record>
-  <date>2021-03-16T01:14:06</date>
-  <millis>1615878846035</millis>
+  <date>2021-03-16T02:31:58</date>
+  <millis>1615883518166</millis>
   <sequence>5</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -88,8 +88,8 @@
   <property name="isOptional">false</property>
 </record>
 <record>
-  <date>2021-03-16T01:14:06</date>
-  <millis>1615878846551</millis>
+  <date>2021-03-16T02:31:58</date>
+  <millis>1615883518692</millis>
   <sequence>7</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -102,151 +102,97 @@
   <property name="stepIndex">1</property>
 </record>
 <record>
-  <date>2021-03-16T01:14:06</date>
-  <millis>1615878846897</millis>
-  <sequence>9</sequence>
-  <level>INFO</level>
-  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
-  <method>logMessage</method>
-  <thread>1</thread>
-  <message>User set preference: [&amp;apos;deviceId&amp;apos;, &amp;apos;&amp;apos;]</message>
-  <nestedLevel>1</nestedLevel>
-  <escapedJava>false</escapedJava>
-</record>
-<record>
-  <date>2021-03-16T01:14:08</date>
-  <millis>1615878848373</millis>
+  <date>2021-03-16T02:34:42</date>
+  <millis>1615883682447</millis>
   <sequence>10</sequence>
-  <level>INFO</level>
+  <level>RUN_DATA</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>logMessage</method>
   <thread>1</thread>
-  <message>Appium server started on port 57,791</message>
+  <message>appiumVersion = 1.17.1</message>
   <nestedLevel>1</nestedLevel>
   <escapedJava>false</escapedJava>
+  <property name="appiumVersion">1.17.1</property>
 </record>
 <record>
-  <date>2021-03-16T01:15:04</date>
-  <millis>1615878904632</millis>
+  <date>2021-03-16T02:34:42</date>
+  <millis>1615883682450</millis>
+  <sequence>11</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>appiumServerStatus = {&amp;quot;status&amp;quot;:0,&amp;quot;value&amp;quot;:{&amp;quot;build&amp;quot;:{&amp;quot;version&amp;quot;:&amp;quot;1.17.1&amp;quot;,&amp;quot;revision&amp;quot;:&amp;quot;15ca429a421b13e0fb90b3516c61f6dc9da0c9c6&amp;quot;}},&amp;quot;sessionId&amp;quot;:null}</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="appiumServerStatus">{&quot;status&quot;:0,&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.17.1&quot;,&quot;revision&quot;:&quot;15ca429a421b13e0fb90b3516c61f6dc9da0c9c6&quot;}},&quot;sessionId&quot;:null}</property>
+</record>
+<record>
+  <date>2021-03-16T02:34:42</date>
+  <millis>1615883682663</millis>
   <sequence>12</sequence>
   <level>RUN_DATA</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>logMessage</method>
   <thread>1</thread>
-  <message>appiumVersion = 1.20.2</message>
+  <message>desiredCapabilities = {
+  &amp;quot;acceptSslCerts&amp;quot;: true,
+  &amp;quot;app&amp;quot;: &amp;quot;kobiton-store:168941&amp;quot;,
+  &amp;quot;browserName&amp;quot;: &amp;quot;chrome&amp;quot;,
+  &amp;quot;captureSreenShots&amp;quot;: true,
+  &amp;quot;deviceName&amp;quot;: &amp;quot;HUAWEI HUAWEI&amp;quot;,
+  &amp;quot;deviceOrientation&amp;quot;: &amp;quot;portrait&amp;quot;,
+  &amp;quot;platformName&amp;quot;: &amp;quot;Android&amp;quot;,
+  &amp;quot;platformVersion&amp;quot;: &amp;quot;6.0.1&amp;quot;,
+  &amp;quot;sessionDescription&amp;quot;: &amp;quot;&amp;quot;,
+  &amp;quot;sessionName&amp;quot;: &amp;quot;Automation test session&amp;quot;
+}</message>
   <nestedLevel>1</nestedLevel>
   <escapedJava>false</escapedJava>
-  <property name="appiumVersion">1.20.2</property>
+  <property name="desiredCapabilities">{
+  &quot;acceptSslCerts&quot;: true,
+  &quot;app&quot;: &quot;kobiton-store:168941&quot;,
+  &quot;browserName&quot;: &quot;chrome&quot;,
+  &quot;captureSreenShots&quot;: true,
+  &quot;deviceName&quot;: &quot;HUAWEI HUAWEI&quot;,
+  &quot;deviceOrientation&quot;: &quot;portrait&quot;,
+  &quot;platformName&quot;: &quot;Android&quot;,
+  &quot;platformVersion&quot;: &quot;6.0.1&quot;,
+  &quot;sessionDescription&quot;: &quot;&quot;,
+  &quot;sessionName&quot;: &quot;Automation test session&quot;
+}</property>
 </record>
 <record>
-  <date>2021-03-16T01:15:04</date>
-  <millis>1615878904634</millis>
+  <date>2021-03-16T02:34:42</date>
+  <millis>1615883682665</millis>
   <sequence>13</sequence>
   <level>RUN_DATA</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>logMessage</method>
   <thread>1</thread>
-  <message>appiumServerStatus = {&amp;quot;value&amp;quot;:{&amp;quot;build&amp;quot;:{&amp;quot;version&amp;quot;:&amp;quot;1.20.2&amp;quot;}},&amp;quot;sessionId&amp;quot;:null,&amp;quot;status&amp;quot;:0}</message>
+  <message>remoteDriverUrl = http://jefemaque:43266bc4-dca6-4772-86e3-bb149203db35@api.kobiton.com/wd/hub</message>
   <nestedLevel>1</nestedLevel>
   <escapedJava>false</escapedJava>
-  <property name="appiumServerStatus">{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.20.2&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}</property>
+  <property name="remoteDriverUrl">http://jefemaque:43266bc4-dca6-4772-86e3-bb149203db35@api.kobiton.com/wd/hub</property>
 </record>
 <record>
-  <date>2021-03-16T01:15:04</date>
-  <millis>1615878904664</millis>
+  <date>2021-03-16T02:34:45</date>
+  <millis>1615883685427</millis>
   <sequence>14</sequence>
-  <level>RUN_DATA</level>
-  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
-  <method>logMessage</method>
-  <thread>1</thread>
-  <message>deviceId = L5Y7N15A12003367</message>
-  <nestedLevel>1</nestedLevel>
-  <escapedJava>false</escapedJava>
-  <property name="deviceId">L5Y7N15A12003367</property>
-</record>
-<record>
-  <date>2021-03-16T01:15:04</date>
-  <millis>1615878904665</millis>
-  <sequence>15</sequence>
-  <level>RUN_DATA</level>
-  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
-  <method>logMessage</method>
-  <thread>1</thread>
-  <message>deviceName = HUAWEI HUAWEI (Android 6.0.1)</message>
-  <nestedLevel>1</nestedLevel>
-  <escapedJava>false</escapedJava>
-  <property name="deviceName">HUAWEI HUAWEI (Android 6.0.1)</property>
-</record>
-<record>
-  <date>2021-03-16T01:15:04</date>
-  <millis>1615878904666</millis>
-  <sequence>16</sequence>
-  <level>RUN_DATA</level>
-  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
-  <method>logMessage</method>
-  <thread>1</thread>
-  <message>deviceModel = HUAWEI</message>
-  <nestedLevel>1</nestedLevel>
-  <escapedJava>false</escapedJava>
-  <property name="deviceModel">HUAWEI</property>
-</record>
-<record>
-  <date>2021-03-16T01:15:04</date>
-  <millis>1615878904670</millis>
-  <sequence>17</sequence>
-  <level>RUN_DATA</level>
-  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
-  <method>logMessage</method>
-  <thread>1</thread>
-  <message>deviceManufacturer = HUAWEI</message>
-  <nestedLevel>1</nestedLevel>
-  <escapedJava>false</escapedJava>
-  <property name="deviceManufacturer">HUAWEI</property>
-</record>
-<record>
-  <date>2021-03-16T01:15:04</date>
-  <millis>1615878904673</millis>
-  <sequence>18</sequence>
-  <level>RUN_DATA</level>
-  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
-  <method>logMessage</method>
-  <thread>1</thread>
-  <message>deviceOS = Android</message>
-  <nestedLevel>1</nestedLevel>
-  <escapedJava>false</escapedJava>
-  <property name="deviceOS">Android</property>
-</record>
-<record>
-  <date>2021-03-16T01:15:04</date>
-  <millis>1615878904677</millis>
-  <sequence>19</sequence>
-  <level>RUN_DATA</level>
-  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
-  <method>logMessage</method>
-  <thread>1</thread>
-  <message>deviceOSVersion = 6.0.1</message>
-  <nestedLevel>1</nestedLevel>
-  <escapedJava>false</escapedJava>
-  <property name="deviceOSVersion">6.0.1</property>
-</record>
-<record>
-  <date>2021-03-16T01:15:05</date>
-  <millis>1615878905683</millis>
-  <sequence>20</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>logMessage</method>
   <thread>1</thread>
-  <message>Started app at: &amp;apos;/Users/a2274333/Downloads/AppClientes_327-clear-preprod-debug.apk&amp;apos;</message>
+  <message>Started app at: &amp;apos;kobiton-store:168941&amp;apos;</message>
   <nestedLevel>1</nestedLevel>
   <escapedJava>false</escapedJava>
   <property name="testops-method-name">com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.startApplication</property>
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2021-03-16T01:15:05</date>
-  <millis>1615878905683</millis>
-  <sequence>21</sequence>
+  <date>2021-03-16T02:34:45</date>
+  <millis>1615883685428</millis>
+  <sequence>15</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>endKeyword</method>
@@ -256,9 +202,9 @@
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2021-03-16T01:15:05</date>
-  <millis>1615878905684</millis>
-  <sequence>22</sequence>
+  <date>2021-03-16T02:34:45</date>
+  <millis>1615883685428</millis>
+  <sequence>16</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>startKeyword</method>
@@ -270,9 +216,9 @@
   <property name="stepIndex">2</property>
 </record>
 <record>
-  <date>2021-03-16T01:15:10</date>
-  <millis>1615878910717</millis>
-  <sequence>24</sequence>
+  <date>2021-03-16T02:34:50</date>
+  <millis>1615883690479</millis>
+  <sequence>18</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>logMessage</method>
@@ -284,9 +230,9 @@
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2021-03-16T01:15:10</date>
-  <millis>1615878910719</millis>
-  <sequence>25</sequence>
+  <date>2021-03-16T02:34:50</date>
+  <millis>1615883690481</millis>
+  <sequence>19</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>endKeyword</method>
@@ -296,9 +242,9 @@
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2021-03-16T01:15:10</date>
-  <millis>1615878910719</millis>
-  <sequence>26</sequence>
+  <date>2021-03-16T02:34:50</date>
+  <millis>1615883690481</millis>
+  <sequence>20</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>startKeyword</method>
@@ -310,9 +256,9 @@
   <property name="stepIndex">3</property>
 </record>
 <record>
-  <date>2021-03-16T01:15:10</date>
-  <millis>1615878910809</millis>
-  <sequence>30</sequence>
+  <date>2021-03-16T02:34:50</date>
+  <millis>1615883690727</millis>
+  <sequence>24</sequence>
   <level>WARNING</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>logMessage</method>
@@ -322,9 +268,9 @@
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2021-03-16T01:15:12</date>
-  <millis>1615878912302</millis>
-  <sequence>31</sequence>
+  <date>2021-03-16T02:34:52</date>
+  <millis>1615883692430</millis>
+  <sequence>25</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>logMessage</method>
@@ -336,9 +282,9 @@
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2021-03-16T01:15:12</date>
-  <millis>1615878912303</millis>
-  <sequence>32</sequence>
+  <date>2021-03-16T02:34:52</date>
+  <millis>1615883692430</millis>
+  <sequence>26</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>endKeyword</method>
@@ -348,9 +294,9 @@
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2021-03-16T01:15:12</date>
-  <millis>1615878912303</millis>
-  <sequence>33</sequence>
+  <date>2021-03-16T02:34:52</date>
+  <millis>1615883692431</millis>
+  <sequence>27</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>startKeyword</method>
@@ -362,9 +308,9 @@
   <property name="stepIndex">4</property>
 </record>
 <record>
-  <date>2021-03-16T01:15:12</date>
-  <millis>1615878912387</millis>
-  <sequence>37</sequence>
+  <date>2021-03-16T02:34:52</date>
+  <millis>1615883692507</millis>
+  <sequence>31</sequence>
   <level>WARNING</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>logMessage</method>
@@ -374,9 +320,9 @@
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2021-03-16T01:15:13</date>
-  <millis>1615878913737</millis>
-  <sequence>38</sequence>
+  <date>2021-03-16T02:34:55</date>
+  <millis>1615883695161</millis>
+  <sequence>32</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>logMessage</method>
@@ -388,9 +334,9 @@
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2021-03-16T01:15:13</date>
-  <millis>1615878913738</millis>
-  <sequence>39</sequence>
+  <date>2021-03-16T02:34:55</date>
+  <millis>1615883695162</millis>
+  <sequence>33</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>endKeyword</method>
@@ -400,9 +346,9 @@
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2021-03-16T01:15:13</date>
-  <millis>1615878913739</millis>
-  <sequence>40</sequence>
+  <date>2021-03-16T02:34:55</date>
+  <millis>1615883695162</millis>
+  <sequence>34</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>startKeyword</method>
@@ -414,9 +360,9 @@
   <property name="stepIndex">5</property>
 </record>
 <record>
-  <date>2021-03-16T01:15:16</date>
-  <millis>1615878916744</millis>
-  <sequence>42</sequence>
+  <date>2021-03-16T02:34:58</date>
+  <millis>1615883698169</millis>
+  <sequence>36</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>logMessage</method>
@@ -428,9 +374,9 @@
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2021-03-16T01:15:16</date>
-  <millis>1615878916745</millis>
-  <sequence>43</sequence>
+  <date>2021-03-16T02:34:58</date>
+  <millis>1615883698169</millis>
+  <sequence>37</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>endKeyword</method>
@@ -440,9 +386,9 @@
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2021-03-16T01:15:16</date>
-  <millis>1615878916745</millis>
-  <sequence>44</sequence>
+  <date>2021-03-16T02:34:58</date>
+  <millis>1615883698170</millis>
+  <sequence>38</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>startKeyword</method>
@@ -454,9 +400,9 @@
   <property name="stepIndex">6</property>
 </record>
 <record>
-  <date>2021-03-16T01:15:18</date>
-  <millis>1615878918836</millis>
-  <sequence>45</sequence>
+  <date>2021-03-16T02:35:08</date>
+  <millis>1615883708488</millis>
+  <sequence>39</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>logMessage</method>
@@ -464,14 +410,14 @@
   <message>Screenshot is taken</message>
   <nestedLevel>1</nestedLevel>
   <escapedJava>false</escapedJava>
-  <property name="attachment">/Users/a2274333/Documents/GitHub/APP_Clientes_Android/APP_Clientes_Android/Reports/20210316_011402/Flujo Base/Registro/20210316_011402/1615878916761.png</property>
+  <property name="attachment">/Users/a2274333/Documents/GitHub/APP_Clientes_Android/APP_Clientes_Android/Reports/20210316_023149/Flujo Base/Registro/20210316_023154/1615883698184.png</property>
   <property name="testops-method-name">com.kms.katalon.core.mobile.keyword.builtin.TakeScreenshotKeyword.takeScreenshot</property>
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2021-03-16T01:15:18</date>
-  <millis>1615878918836</millis>
-  <sequence>46</sequence>
+  <date>2021-03-16T02:35:08</date>
+  <millis>1615883708489</millis>
+  <sequence>40</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>logMessage</method>
@@ -479,14 +425,14 @@
   <message>Screenshot is taken</message>
   <nestedLevel>1</nestedLevel>
   <escapedJava>false</escapedJava>
-  <property name="attachment">1615878916761.png</property>
+  <property name="attachment">1615883698184.png</property>
   <property name="testops-method-name">com.kms.katalon.core.mobile.keyword.builtin.TakeScreenshotKeyword.takeScreenshot</property>
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2021-03-16T01:15:18</date>
-  <millis>1615878918845</millis>
-  <sequence>47</sequence>
+  <date>2021-03-16T02:35:09</date>
+  <millis>1615883709215</millis>
+  <sequence>41</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>endKeyword</method>
@@ -496,9 +442,9 @@
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2021-03-16T01:15:18</date>
-  <millis>1615878918845</millis>
-  <sequence>48</sequence>
+  <date>2021-03-16T02:35:09</date>
+  <millis>1615883709216</millis>
+  <sequence>42</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>logMessage</method>
@@ -508,9 +454,9 @@
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2021-03-16T01:15:18</date>
-  <millis>1615878918846</millis>
-  <sequence>49</sequence>
+  <date>2021-03-16T02:35:09</date>
+  <millis>1615883709217</millis>
+  <sequence>43</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>endTest</method>
@@ -520,9 +466,9 @@
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2021-03-16T01:15:18</date>
-  <millis>1615878918855</millis>
-  <sequence>50</sequence>
+  <date>2021-03-16T02:35:09</date>
+  <millis>1615883709360</millis>
+  <sequence>44</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>startTest</method>
@@ -538,20 +484,92 @@
   <property name="isOptional">false</property>
 </record>
 <record>
-  <date>2021-03-16T01:15:18</date>
-  <millis>1615878918894</millis>
+  <date>2021-03-16T02:35:09</date>
+  <millis>1615883709386</millis>
+  <sequence>46</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>nombre = Fernando</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2021-03-16T02:35:09</date>
+  <millis>1615883709386</millis>
+  <sequence>47</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>appaterno = Martinez</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2021-03-16T02:35:09</date>
+  <millis>1615883709386</millis>
+  <sequence>48</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>apmaterno = Quezada</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2021-03-16T02:35:09</date>
+  <millis>1615883709387</millis>
+  <sequence>49</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sexo = Hombre</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2021-03-16T02:35:09</date>
+  <millis>1615883709387</millis>
+  <sequence>50</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>telefono = 8121715239</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2021-03-16T02:35:09</date>
+  <millis>1615883709395</millis>
+  <sequence>51</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>correo = testing.syp@gmail.com</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2021-03-16T02:35:09</date>
+  <millis>1615883709396</millis>
   <sequence>52</sequence>
   <level>INFO</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>logMessage</method>
   <thread>1</thread>
-  <message>(Default) text = Hombre</message>
+  <message>contrasena = Passw0rd</message>
   <nestedLevel>1</nestedLevel>
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2021-03-16T01:15:19</date>
-  <millis>1615878919163</millis>
+  <date>2021-03-16T02:35:09</date>
+  <millis>1615883709643</millis>
   <sequence>53</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -564,8 +582,8 @@
   <property name="stepIndex">1</property>
 </record>
 <record>
-  <date>2021-03-16T01:15:19</date>
-  <millis>1615878919209</millis>
+  <date>2021-03-16T02:35:09</date>
+  <millis>1615883709680</millis>
   <sequence>57</sequence>
   <level>WARNING</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -576,8 +594,8 @@
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2021-03-16T01:15:19</date>
-  <millis>1615878919476</millis>
+  <date>2021-03-16T02:35:11</date>
+  <millis>1615883711848</millis>
   <sequence>58</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -590,8 +608,8 @@
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2021-03-16T01:15:19</date>
-  <millis>1615878919477</millis>
+  <date>2021-03-16T02:35:11</date>
+  <millis>1615883711849</millis>
   <sequence>59</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -602,8 +620,8 @@
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2021-03-16T01:15:19</date>
-  <millis>1615878919477</millis>
+  <date>2021-03-16T02:35:11</date>
+  <millis>1615883711849</millis>
   <sequence>60</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -616,8 +634,8 @@
   <property name="stepIndex">2</property>
 </record>
 <record>
-  <date>2021-03-16T01:15:24</date>
-  <millis>1615878924481</millis>
+  <date>2021-03-16T02:35:16</date>
+  <millis>1615883716853</millis>
   <sequence>62</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -630,8 +648,8 @@
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2021-03-16T01:15:24</date>
-  <millis>1615878924482</millis>
+  <date>2021-03-16T02:35:16</date>
+  <millis>1615883716854</millis>
   <sequence>63</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -642,8 +660,8 @@
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2021-03-16T01:15:24</date>
-  <millis>1615878924483</millis>
+  <date>2021-03-16T02:35:16</date>
+  <millis>1615883716854</millis>
   <sequence>64</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -656,8 +674,8 @@
   <property name="stepIndex">3</property>
 </record>
 <record>
-  <date>2021-03-16T01:15:26</date>
-  <millis>1615878926224</millis>
+  <date>2021-03-16T02:35:19</date>
+  <millis>1615883719677</millis>
   <sequence>66</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -683,8 +701,8 @@ RegistrarUsuario.run(RegistrarUsuario:24)
 </property>
 </record>
 <record>
-  <date>2021-03-16T01:15:26</date>
-  <millis>1615878926231</millis>
+  <date>2021-03-16T02:35:19</date>
+  <millis>1615883719984</millis>
   <sequence>67</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -695,22 +713,22 @@ RegistrarUsuario.run(RegistrarUsuario:24)
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2021-03-16T01:15:26</date>
-  <millis>1615878926232</millis>
+  <date>2021-03-16T02:35:19</date>
+  <millis>1615883719985</millis>
   <sequence>68</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>startKeyword</method>
   <thread>1</thread>
-  <message>Start action : setText(findTestObject(&amp;quot;Object Repository/Registro/android.widget.EditText - Ingresa tu nombre&amp;quot;), &amp;quot;Fernando&amp;quot;, 0)</message>
+  <message>Start action : setText(findTestObject(&amp;quot;Object Repository/Registro/android.widget.EditText - Ingresa tu nombre&amp;quot;), nombre, 0)</message>
   <nestedLevel>1</nestedLevel>
   <escapedJava>false</escapedJava>
   <property name="startLine">26</property>
   <property name="stepIndex">4</property>
 </record>
 <record>
-  <date>2021-03-16T01:15:26</date>
-  <millis>1615878926290</millis>
+  <date>2021-03-16T02:35:20</date>
+  <millis>1615883720047</millis>
   <sequence>72</sequence>
   <level>WARNING</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -721,8 +739,8 @@ RegistrarUsuario.run(RegistrarUsuario:24)
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2021-03-16T01:15:27</date>
-  <millis>1615878927814</millis>
+  <date>2021-03-16T02:35:23</date>
+  <millis>1615883723118</millis>
   <sequence>73</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -735,20 +753,20 @@ RegistrarUsuario.run(RegistrarUsuario:24)
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2021-03-16T01:15:27</date>
-  <millis>1615878927814</millis>
+  <date>2021-03-16T02:35:23</date>
+  <millis>1615883723119</millis>
   <sequence>74</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>endKeyword</method>
   <thread>1</thread>
-  <message>End action : setText(findTestObject(&amp;quot;Object Repository/Registro/android.widget.EditText - Ingresa tu nombre&amp;quot;), &amp;quot;Fernando&amp;quot;, 0)</message>
+  <message>End action : setText(findTestObject(&amp;quot;Object Repository/Registro/android.widget.EditText - Ingresa tu nombre&amp;quot;), nombre, 0)</message>
   <nestedLevel>1</nestedLevel>
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2021-03-16T01:15:27</date>
-  <millis>1615878927814</millis>
+  <date>2021-03-16T02:35:23</date>
+  <millis>1615883723119</millis>
   <sequence>75</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -761,8 +779,8 @@ RegistrarUsuario.run(RegistrarUsuario:24)
   <property name="stepIndex">5</property>
 </record>
 <record>
-  <date>2021-03-16T01:15:28</date>
-  <millis>1615878928388</millis>
+  <date>2021-03-16T02:35:25</date>
+  <millis>1615883725575</millis>
   <sequence>76</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -771,13 +789,13 @@ RegistrarUsuario.run(RegistrarUsuario:24)
   <message>Screenshot is taken</message>
   <nestedLevel>1</nestedLevel>
   <escapedJava>false</escapedJava>
-  <property name="attachment">/Users/a2274333/Documents/GitHub/APP_Clientes_Android/APP_Clientes_Android/Reports/20210316_011402/Flujo Base/Registro/20210316_011402/1615878927818.png</property>
+  <property name="attachment">/Users/a2274333/Documents/GitHub/APP_Clientes_Android/APP_Clientes_Android/Reports/20210316_023149/Flujo Base/Registro/20210316_023154/1615883723121.png</property>
   <property name="testops-method-name">com.kms.katalon.core.mobile.keyword.builtin.TakeScreenshotKeyword.takeScreenshot</property>
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2021-03-16T01:15:28</date>
-  <millis>1615878928389</millis>
+  <date>2021-03-16T02:35:25</date>
+  <millis>1615883725576</millis>
   <sequence>77</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -786,13 +804,13 @@ RegistrarUsuario.run(RegistrarUsuario:24)
   <message>Screenshot is taken</message>
   <nestedLevel>1</nestedLevel>
   <escapedJava>false</escapedJava>
-  <property name="attachment">1615878927818.png</property>
+  <property name="attachment">1615883723121.png</property>
   <property name="testops-method-name">com.kms.katalon.core.mobile.keyword.builtin.TakeScreenshotKeyword.takeScreenshot</property>
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2021-03-16T01:15:28</date>
-  <millis>1615878928400</millis>
+  <date>2021-03-16T02:35:25</date>
+  <millis>1615883725959</millis>
   <sequence>78</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -803,22 +821,22 @@ RegistrarUsuario.run(RegistrarUsuario:24)
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2021-03-16T01:15:28</date>
-  <millis>1615878928400</millis>
+  <date>2021-03-16T02:35:25</date>
+  <millis>1615883725960</millis>
   <sequence>79</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>startKeyword</method>
   <thread>1</thread>
-  <message>Start action : setText(findTestObject(&amp;quot;Object Repository/Registro/android.widget.EditText - Apellido paterno&amp;quot;), &amp;quot;Martinez&amp;quot;, 0)</message>
+  <message>Start action : setText(findTestObject(&amp;quot;Object Repository/Registro/android.widget.EditText - Apellido paterno&amp;quot;), appaterno, 0)</message>
   <nestedLevel>1</nestedLevel>
   <escapedJava>false</escapedJava>
   <property name="startLine">30</property>
   <property name="stepIndex">6</property>
 </record>
 <record>
-  <date>2021-03-16T01:15:28</date>
-  <millis>1615878928448</millis>
+  <date>2021-03-16T02:35:26</date>
+  <millis>1615883726018</millis>
   <sequence>83</sequence>
   <level>WARNING</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -829,8 +847,8 @@ RegistrarUsuario.run(RegistrarUsuario:24)
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2021-03-16T01:15:29</date>
-  <millis>1615878929613</millis>
+  <date>2021-03-16T02:35:29</date>
+  <millis>1615883729017</millis>
   <sequence>84</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -843,34 +861,34 @@ RegistrarUsuario.run(RegistrarUsuario:24)
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2021-03-16T01:15:29</date>
-  <millis>1615878929614</millis>
+  <date>2021-03-16T02:35:29</date>
+  <millis>1615883729018</millis>
   <sequence>85</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>endKeyword</method>
   <thread>1</thread>
-  <message>End action : setText(findTestObject(&amp;quot;Object Repository/Registro/android.widget.EditText - Apellido paterno&amp;quot;), &amp;quot;Martinez&amp;quot;, 0)</message>
+  <message>End action : setText(findTestObject(&amp;quot;Object Repository/Registro/android.widget.EditText - Apellido paterno&amp;quot;), appaterno, 0)</message>
   <nestedLevel>1</nestedLevel>
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2021-03-16T01:15:29</date>
-  <millis>1615878929614</millis>
+  <date>2021-03-16T02:35:29</date>
+  <millis>1615883729018</millis>
   <sequence>86</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>startKeyword</method>
   <thread>1</thread>
-  <message>Start action : setText(findTestObject(&amp;quot;Object Repository/Registro/android.widget.EditText - Apellido paterno (1)&amp;quot;), &amp;quot;Quezada&amp;quot;, 0)</message>
+  <message>Start action : setText(findTestObject(&amp;quot;Object Repository/Registro/android.widget.EditText - Apellido paterno (1)&amp;quot;), apmaterno, 0)</message>
   <nestedLevel>1</nestedLevel>
   <escapedJava>false</escapedJava>
   <property name="startLine">32</property>
   <property name="stepIndex">7</property>
 </record>
 <record>
-  <date>2021-03-16T01:15:29</date>
-  <millis>1615878929663</millis>
+  <date>2021-03-16T02:35:29</date>
+  <millis>1615883729078</millis>
   <sequence>90</sequence>
   <level>WARNING</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -881,8 +899,8 @@ RegistrarUsuario.run(RegistrarUsuario:24)
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2021-03-16T01:15:31</date>
-  <millis>1615878931228</millis>
+  <date>2021-03-16T02:35:32</date>
+  <millis>1615883732263</millis>
   <sequence>91</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -895,20 +913,20 @@ RegistrarUsuario.run(RegistrarUsuario:24)
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2021-03-16T01:15:31</date>
-  <millis>1615878931229</millis>
+  <date>2021-03-16T02:35:32</date>
+  <millis>1615883732265</millis>
   <sequence>92</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>endKeyword</method>
   <thread>1</thread>
-  <message>End action : setText(findTestObject(&amp;quot;Object Repository/Registro/android.widget.EditText - Apellido paterno (1)&amp;quot;), &amp;quot;Quezada&amp;quot;, 0)</message>
+  <message>End action : setText(findTestObject(&amp;quot;Object Repository/Registro/android.widget.EditText - Apellido paterno (1)&amp;quot;), apmaterno, 0)</message>
   <nestedLevel>1</nestedLevel>
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2021-03-16T01:15:31</date>
-  <millis>1615878931229</millis>
+  <date>2021-03-16T02:35:32</date>
+  <millis>1615883732265</millis>
   <sequence>93</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -921,8 +939,8 @@ RegistrarUsuario.run(RegistrarUsuario:24)
   <property name="stepIndex">8</property>
 </record>
 <record>
-  <date>2021-03-16T01:15:35</date>
-  <millis>1615878935184</millis>
+  <date>2021-03-16T02:35:36</date>
+  <millis>1615883736534</millis>
   <sequence>96</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -948,8 +966,8 @@ RegistrarUsuario.run(RegistrarUsuario:34)
 </property>
 </record>
 <record>
-  <date>2021-03-16T01:15:35</date>
-  <millis>1615878935190</millis>
+  <date>2021-03-16T02:35:36</date>
+  <millis>1615883736728</millis>
   <sequence>97</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -960,22 +978,22 @@ RegistrarUsuario.run(RegistrarUsuario:34)
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2021-03-16T01:15:35</date>
-  <millis>1615878935190</millis>
+  <date>2021-03-16T02:35:36</date>
+  <millis>1615883736728</millis>
   <sequence>98</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>startKeyword</method>
   <thread>1</thread>
-  <message>Start action : tap(findTestObject(&amp;quot;Object Repository/Registro/android.widget.TextView - Hombre&amp;quot;, [&amp;quot;text&amp;quot;:&amp;quot;Mujer&amp;quot;]), 0)</message>
+  <message>Start action : tap(findTestObject(&amp;quot;Registro/android.widget.TextView - Hombre&amp;quot;, [&amp;quot;sexo&amp;quot;:sexo]), 0)</message>
   <nestedLevel>1</nestedLevel>
   <escapedJava>false</escapedJava>
   <property name="startLine">36</property>
   <property name="stepIndex">9</property>
 </record>
 <record>
-  <date>2021-03-16T01:15:35</date>
-  <millis>1615878935292</millis>
+  <date>2021-03-16T02:35:36</date>
+  <millis>1615883736837</millis>
   <sequence>102</sequence>
   <level>WARNING</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -986,8 +1004,8 @@ RegistrarUsuario.run(RegistrarUsuario:34)
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2021-03-16T01:15:35</date>
-  <millis>1615878935523</millis>
+  <date>2021-03-16T02:35:38</date>
+  <millis>1615883738948</millis>
   <sequence>103</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1000,34 +1018,34 @@ RegistrarUsuario.run(RegistrarUsuario:34)
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2021-03-16T01:15:35</date>
-  <millis>1615878935526</millis>
+  <date>2021-03-16T02:35:38</date>
+  <millis>1615883738958</millis>
   <sequence>104</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>endKeyword</method>
   <thread>1</thread>
-  <message>End action : tap(findTestObject(&amp;quot;Object Repository/Registro/android.widget.TextView - Hombre&amp;quot;, [&amp;quot;text&amp;quot;:&amp;quot;Mujer&amp;quot;]), 0)</message>
+  <message>End action : tap(findTestObject(&amp;quot;Registro/android.widget.TextView - Hombre&amp;quot;, [&amp;quot;sexo&amp;quot;:sexo]), 0)</message>
   <nestedLevel>1</nestedLevel>
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2021-03-16T01:15:35</date>
-  <millis>1615878935526</millis>
+  <date>2021-03-16T02:35:38</date>
+  <millis>1615883738959</millis>
   <sequence>105</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>startKeyword</method>
   <thread>1</thread>
-  <message>Start action : setText(findTestObject(&amp;quot;Object Repository/Registro/android.widget.EditText - Ingresa tu nmero&amp;quot;), &amp;quot;8121715239&amp;quot;, 0)</message>
+  <message>Start action : setText(findTestObject(&amp;quot;Object Repository/Registro/android.widget.EditText - Ingresa tu nmero&amp;quot;), telefono, 0)</message>
   <nestedLevel>1</nestedLevel>
   <escapedJava>false</escapedJava>
   <property name="startLine">38</property>
   <property name="stepIndex">10</property>
 </record>
 <record>
-  <date>2021-03-16T01:15:35</date>
-  <millis>1615878935610</millis>
+  <date>2021-03-16T02:35:39</date>
+  <millis>1615883739013</millis>
   <sequence>109</sequence>
   <level>WARNING</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1038,8 +1056,8 @@ RegistrarUsuario.run(RegistrarUsuario:34)
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2021-03-16T01:15:37</date>
-  <millis>1615878937419</millis>
+  <date>2021-03-16T02:35:43</date>
+  <millis>1615883743173</millis>
   <sequence>110</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1052,34 +1070,34 @@ RegistrarUsuario.run(RegistrarUsuario:34)
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2021-03-16T01:15:37</date>
-  <millis>1615878937420</millis>
+  <date>2021-03-16T02:35:43</date>
+  <millis>1615883743174</millis>
   <sequence>111</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>endKeyword</method>
   <thread>1</thread>
-  <message>End action : setText(findTestObject(&amp;quot;Object Repository/Registro/android.widget.EditText - Ingresa tu nmero&amp;quot;), &amp;quot;8121715239&amp;quot;, 0)</message>
+  <message>End action : setText(findTestObject(&amp;quot;Object Repository/Registro/android.widget.EditText - Ingresa tu nmero&amp;quot;), telefono, 0)</message>
   <nestedLevel>1</nestedLevel>
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2021-03-16T01:15:37</date>
-  <millis>1615878937420</millis>
+  <date>2021-03-16T02:35:43</date>
+  <millis>1615883743174</millis>
   <sequence>112</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>startKeyword</method>
   <thread>1</thread>
-  <message>Start action : setText(findTestObject(&amp;quot;Object Repository/Registro/android.widget.EditText - Correo electrnico&amp;quot;), &amp;quot;testing.syp@gmail.com&amp;quot;, 0)</message>
+  <message>Start action : setText(findTestObject(&amp;quot;Object Repository/Registro/android.widget.EditText - Correo electrnico&amp;quot;), correo, 0)</message>
   <nestedLevel>1</nestedLevel>
   <escapedJava>false</escapedJava>
   <property name="startLine">40</property>
   <property name="stepIndex">11</property>
 </record>
 <record>
-  <date>2021-03-16T01:15:37</date>
-  <millis>1615878937521</millis>
+  <date>2021-03-16T02:35:43</date>
+  <millis>1615883743246</millis>
   <sequence>116</sequence>
   <level>WARNING</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1090,8 +1108,8 @@ RegistrarUsuario.run(RegistrarUsuario:34)
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2021-03-16T01:15:39</date>
-  <millis>1615878939114</millis>
+  <date>2021-03-16T02:35:46</date>
+  <millis>1615883746326</millis>
   <sequence>117</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1104,20 +1122,20 @@ RegistrarUsuario.run(RegistrarUsuario:34)
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2021-03-16T01:15:39</date>
-  <millis>1615878939115</millis>
+  <date>2021-03-16T02:35:46</date>
+  <millis>1615883746326</millis>
   <sequence>118</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>endKeyword</method>
   <thread>1</thread>
-  <message>End action : setText(findTestObject(&amp;quot;Object Repository/Registro/android.widget.EditText - Correo electrnico&amp;quot;), &amp;quot;testing.syp@gmail.com&amp;quot;, 0)</message>
+  <message>End action : setText(findTestObject(&amp;quot;Object Repository/Registro/android.widget.EditText - Correo electrnico&amp;quot;), correo, 0)</message>
   <nestedLevel>1</nestedLevel>
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2021-03-16T01:15:39</date>
-  <millis>1615878939115</millis>
+  <date>2021-03-16T02:35:46</date>
+  <millis>1615883746327</millis>
   <sequence>119</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1126,12 +1144,12 @@ RegistrarUsuario.run(RegistrarUsuario:34)
   <message>Start action : takeScreenshot()</message>
   <nestedLevel>1</nestedLevel>
   <escapedJava>false</escapedJava>
-  <property name="startLine">43</property>
+  <property name="startLine">42</property>
   <property name="stepIndex">12</property>
 </record>
 <record>
-  <date>2021-03-16T01:15:39</date>
-  <millis>1615878939687</millis>
+  <date>2021-03-16T02:35:48</date>
+  <millis>1615883748261</millis>
   <sequence>120</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1140,13 +1158,13 @@ RegistrarUsuario.run(RegistrarUsuario:34)
   <message>Screenshot is taken</message>
   <nestedLevel>1</nestedLevel>
   <escapedJava>false</escapedJava>
-  <property name="attachment">/Users/a2274333/Documents/GitHub/APP_Clientes_Android/APP_Clientes_Android/Reports/20210316_011402/Flujo Base/Registro/20210316_011402/1615878939118.png</property>
+  <property name="attachment">/Users/a2274333/Documents/GitHub/APP_Clientes_Android/APP_Clientes_Android/Reports/20210316_023149/Flujo Base/Registro/20210316_023154/1615883746329.png</property>
   <property name="testops-method-name">com.kms.katalon.core.mobile.keyword.builtin.TakeScreenshotKeyword.takeScreenshot</property>
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2021-03-16T01:15:39</date>
-  <millis>1615878939688</millis>
+  <date>2021-03-16T02:35:48</date>
+  <millis>1615883748261</millis>
   <sequence>121</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1155,13 +1173,13 @@ RegistrarUsuario.run(RegistrarUsuario:34)
   <message>Screenshot is taken</message>
   <nestedLevel>1</nestedLevel>
   <escapedJava>false</escapedJava>
-  <property name="attachment">1615878939118.png</property>
+  <property name="attachment">1615883746329.png</property>
   <property name="testops-method-name">com.kms.katalon.core.mobile.keyword.builtin.TakeScreenshotKeyword.takeScreenshot</property>
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2021-03-16T01:15:39</date>
-  <millis>1615878939699</millis>
+  <date>2021-03-16T02:35:48</date>
+  <millis>1615883748563</millis>
   <sequence>122</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1172,8 +1190,8 @@ RegistrarUsuario.run(RegistrarUsuario:34)
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2021-03-16T01:15:39</date>
-  <millis>1615878939699</millis>
+  <date>2021-03-16T02:35:48</date>
+  <millis>1615883748564</millis>
   <sequence>123</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1182,12 +1200,12 @@ RegistrarUsuario.run(RegistrarUsuario:34)
   <message>Start action : tap(findTestObject(&amp;quot;Object Repository/Registro/android.widget.Button - Continuar&amp;quot;), 0)</message>
   <nestedLevel>1</nestedLevel>
   <escapedJava>false</escapedJava>
-  <property name="startLine">45</property>
+  <property name="startLine">44</property>
   <property name="stepIndex">13</property>
 </record>
 <record>
-  <date>2021-03-16T01:15:39</date>
-  <millis>1615878939780</millis>
+  <date>2021-03-16T02:35:48</date>
+  <millis>1615883748616</millis>
   <sequence>127</sequence>
   <level>WARNING</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1198,8 +1216,8 @@ RegistrarUsuario.run(RegistrarUsuario:34)
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2021-03-16T01:15:40</date>
-  <millis>1615878940025</millis>
+  <date>2021-03-16T02:35:50</date>
+  <millis>1615883750814</millis>
   <sequence>128</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1212,8 +1230,8 @@ RegistrarUsuario.run(RegistrarUsuario:34)
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2021-03-16T01:15:40</date>
-  <millis>1615878940026</millis>
+  <date>2021-03-16T02:35:50</date>
+  <millis>1615883750815</millis>
   <sequence>129</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1224,22 +1242,22 @@ RegistrarUsuario.run(RegistrarUsuario:34)
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2021-03-16T01:15:40</date>
-  <millis>1615878940028</millis>
+  <date>2021-03-16T02:35:50</date>
+  <millis>1615883750815</millis>
   <sequence>130</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>startKeyword</method>
   <thread>1</thread>
-  <message>Start action : setText(findTestObject(&amp;quot;Object Repository/Registro/android.widget.EditText&amp;quot;), &amp;quot;Passw0rd$&amp;quot;, 0)</message>
+  <message>Start action : setText(findTestObject(&amp;quot;Object Repository/Registro/android.widget.EditText&amp;quot;), contrasena, 0)</message>
   <nestedLevel>1</nestedLevel>
   <escapedJava>false</escapedJava>
-  <property name="startLine">47</property>
+  <property name="startLine">46</property>
   <property name="stepIndex">14</property>
 </record>
 <record>
-  <date>2021-03-16T01:15:40</date>
-  <millis>1615878940084</millis>
+  <date>2021-03-16T02:35:50</date>
+  <millis>1615883750898</millis>
   <sequence>134</sequence>
   <level>WARNING</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1250,34 +1268,34 @@ RegistrarUsuario.run(RegistrarUsuario:34)
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2021-03-16T01:15:42</date>
-  <millis>1615878942205</millis>
+  <date>2021-03-16T02:35:53</date>
+  <millis>1615883753714</millis>
   <sequence>135</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>logMessage</method>
   <thread>1</thread>
-  <message>Text &amp;apos;Passw0rd$&amp;apos; has been set to element &amp;apos;Object Repository/Registro/android.widget.EditText&amp;apos;</message>
+  <message>Text &amp;apos;Passw0rd&amp;apos; has been set to element &amp;apos;Object Repository/Registro/android.widget.EditText&amp;apos;</message>
   <nestedLevel>1</nestedLevel>
   <escapedJava>false</escapedJava>
   <property name="testops-method-name">com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword.setText</property>
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2021-03-16T01:15:42</date>
-  <millis>1615878942206</millis>
+  <date>2021-03-16T02:35:53</date>
+  <millis>1615883753715</millis>
   <sequence>136</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>endKeyword</method>
   <thread>1</thread>
-  <message>End action : setText(findTestObject(&amp;quot;Object Repository/Registro/android.widget.EditText&amp;quot;), &amp;quot;Passw0rd$&amp;quot;, 0)</message>
+  <message>End action : setText(findTestObject(&amp;quot;Object Repository/Registro/android.widget.EditText&amp;quot;), contrasena, 0)</message>
   <nestedLevel>1</nestedLevel>
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2021-03-16T01:15:42</date>
-  <millis>1615878942206</millis>
+  <date>2021-03-16T02:35:53</date>
+  <millis>1615883753715</millis>
   <sequence>137</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1286,12 +1304,12 @@ RegistrarUsuario.run(RegistrarUsuario:34)
   <message>Start action : takeScreenshot()</message>
   <nestedLevel>1</nestedLevel>
   <escapedJava>false</escapedJava>
-  <property name="startLine">49</property>
+  <property name="startLine">48</property>
   <property name="stepIndex">15</property>
 </record>
 <record>
-  <date>2021-03-16T01:15:42</date>
-  <millis>1615878942888</millis>
+  <date>2021-03-16T02:35:56</date>
+  <millis>1615883756486</millis>
   <sequence>138</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1300,13 +1318,13 @@ RegistrarUsuario.run(RegistrarUsuario:34)
   <message>Screenshot is taken</message>
   <nestedLevel>1</nestedLevel>
   <escapedJava>false</escapedJava>
-  <property name="attachment">/Users/a2274333/Documents/GitHub/APP_Clientes_Android/APP_Clientes_Android/Reports/20210316_011402/Flujo Base/Registro/20210316_011402/1615878942209.png</property>
+  <property name="attachment">/Users/a2274333/Documents/GitHub/APP_Clientes_Android/APP_Clientes_Android/Reports/20210316_023149/Flujo Base/Registro/20210316_023154/1615883753718.png</property>
   <property name="testops-method-name">com.kms.katalon.core.mobile.keyword.builtin.TakeScreenshotKeyword.takeScreenshot</property>
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2021-03-16T01:15:42</date>
-  <millis>1615878942889</millis>
+  <date>2021-03-16T02:35:56</date>
+  <millis>1615883756487</millis>
   <sequence>139</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1315,13 +1333,13 @@ RegistrarUsuario.run(RegistrarUsuario:34)
   <message>Screenshot is taken</message>
   <nestedLevel>1</nestedLevel>
   <escapedJava>false</escapedJava>
-  <property name="attachment">1615878942209.png</property>
+  <property name="attachment">1615883753718.png</property>
   <property name="testops-method-name">com.kms.katalon.core.mobile.keyword.builtin.TakeScreenshotKeyword.takeScreenshot</property>
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2021-03-16T01:15:42</date>
-  <millis>1615878942894</millis>
+  <date>2021-03-16T02:35:56</date>
+  <millis>1615883756681</millis>
   <sequence>140</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1332,8 +1350,8 @@ RegistrarUsuario.run(RegistrarUsuario:34)
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2021-03-16T01:15:42</date>
-  <millis>1615878942894</millis>
+  <date>2021-03-16T02:35:56</date>
+  <millis>1615883756682</millis>
   <sequence>141</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1342,12 +1360,12 @@ RegistrarUsuario.run(RegistrarUsuario:34)
   <message>Start action : tap(findTestObject(&amp;quot;Object Repository/Registro/android.widget.Button - Continuar (1)&amp;quot;), 0)</message>
   <nestedLevel>1</nestedLevel>
   <escapedJava>false</escapedJava>
-  <property name="startLine">51</property>
+  <property name="startLine">50</property>
   <property name="stepIndex">16</property>
 </record>
 <record>
-  <date>2021-03-16T01:15:42</date>
-  <millis>1615878942955</millis>
+  <date>2021-03-16T02:35:56</date>
+  <millis>1615883756792</millis>
   <sequence>145</sequence>
   <level>WARNING</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1358,8 +1376,8 @@ RegistrarUsuario.run(RegistrarUsuario:34)
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2021-03-16T01:15:43</date>
-  <millis>1615878943223</millis>
+  <date>2021-03-16T02:35:58</date>
+  <millis>1615883758513</millis>
   <sequence>146</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1372,8 +1390,8 @@ RegistrarUsuario.run(RegistrarUsuario:34)
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2021-03-16T01:15:43</date>
-  <millis>1615878943225</millis>
+  <date>2021-03-16T02:35:58</date>
+  <millis>1615883758514</millis>
   <sequence>147</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1384,8 +1402,8 @@ RegistrarUsuario.run(RegistrarUsuario:34)
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2021-03-16T01:15:43</date>
-  <millis>1615878943226</millis>
+  <date>2021-03-16T02:35:58</date>
+  <millis>1615883758514</millis>
   <sequence>148</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1394,12 +1412,12 @@ RegistrarUsuario.run(RegistrarUsuario:34)
   <message>Start action : tap(findTestObject(&amp;quot;Object Repository/Registro/android.widget.CheckBox - Acepto los trminos y condiciones&amp;quot;), 0)</message>
   <nestedLevel>1</nestedLevel>
   <escapedJava>false</escapedJava>
-  <property name="startLine">53</property>
+  <property name="startLine">52</property>
   <property name="stepIndex">17</property>
 </record>
 <record>
-  <date>2021-03-16T01:15:43</date>
-  <millis>1615878943328</millis>
+  <date>2021-03-16T02:35:58</date>
+  <millis>1615883758562</millis>
   <sequence>152</sequence>
   <level>WARNING</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1410,8 +1428,8 @@ RegistrarUsuario.run(RegistrarUsuario:34)
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2021-03-16T01:15:45</date>
-  <millis>1615878945138</millis>
+  <date>2021-03-16T02:36:01</date>
+  <millis>1615883761778</millis>
   <sequence>153</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1424,8 +1442,8 @@ RegistrarUsuario.run(RegistrarUsuario:34)
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2021-03-16T01:15:45</date>
-  <millis>1615878945139</millis>
+  <date>2021-03-16T02:36:01</date>
+  <millis>1615883761779</millis>
   <sequence>154</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1436,8 +1454,8 @@ RegistrarUsuario.run(RegistrarUsuario:34)
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2021-03-16T01:15:45</date>
-  <millis>1615878945140</millis>
+  <date>2021-03-16T02:36:01</date>
+  <millis>1615883761779</millis>
   <sequence>155</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1446,12 +1464,12 @@ RegistrarUsuario.run(RegistrarUsuario:34)
   <message>Start action : tap(findTestObject(&amp;quot;Object Repository/Registro/android.widget.Button - Registrar&amp;quot;), 0)</message>
   <nestedLevel>1</nestedLevel>
   <escapedJava>false</escapedJava>
-  <property name="startLine">55</property>
+  <property name="startLine">54</property>
   <property name="stepIndex">18</property>
 </record>
 <record>
-  <date>2021-03-16T01:15:45</date>
-  <millis>1615878945202</millis>
+  <date>2021-03-16T02:36:01</date>
+  <millis>1615883761896</millis>
   <sequence>159</sequence>
   <level>WARNING</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1462,8 +1480,8 @@ RegistrarUsuario.run(RegistrarUsuario:34)
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2021-03-16T01:15:46</date>
-  <millis>1615878946372</millis>
+  <date>2021-03-16T02:36:03</date>
+  <millis>1615883763466</millis>
   <sequence>160</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1476,8 +1494,8 @@ RegistrarUsuario.run(RegistrarUsuario:34)
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2021-03-16T01:15:46</date>
-  <millis>1615878946372</millis>
+  <date>2021-03-16T02:36:03</date>
+  <millis>1615883763466</millis>
   <sequence>161</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1488,8 +1506,8 @@ RegistrarUsuario.run(RegistrarUsuario:34)
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2021-03-16T01:15:46</date>
-  <millis>1615878946373</millis>
+  <date>2021-03-16T02:36:03</date>
+  <millis>1615883763466</millis>
   <sequence>162</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1498,12 +1516,12 @@ RegistrarUsuario.run(RegistrarUsuario:34)
   <message>Start action : takeScreenshot()</message>
   <nestedLevel>1</nestedLevel>
   <escapedJava>false</escapedJava>
-  <property name="startLine">57</property>
+  <property name="startLine">56</property>
   <property name="stepIndex">19</property>
 </record>
 <record>
-  <date>2021-03-16T01:15:47</date>
-  <millis>1615878947109</millis>
+  <date>2021-03-16T02:36:06</date>
+  <millis>1615883766118</millis>
   <sequence>163</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1512,13 +1530,13 @@ RegistrarUsuario.run(RegistrarUsuario:34)
   <message>Screenshot is taken</message>
   <nestedLevel>1</nestedLevel>
   <escapedJava>false</escapedJava>
-  <property name="attachment">/Users/a2274333/Documents/GitHub/APP_Clientes_Android/APP_Clientes_Android/Reports/20210316_011402/Flujo Base/Registro/20210316_011402/1615878946375.png</property>
+  <property name="attachment">/Users/a2274333/Documents/GitHub/APP_Clientes_Android/APP_Clientes_Android/Reports/20210316_023149/Flujo Base/Registro/20210316_023154/1615883763469.png</property>
   <property name="testops-method-name">com.kms.katalon.core.mobile.keyword.builtin.TakeScreenshotKeyword.takeScreenshot</property>
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2021-03-16T01:15:47</date>
-  <millis>1615878947109</millis>
+  <date>2021-03-16T02:36:06</date>
+  <millis>1615883766119</millis>
   <sequence>164</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1527,13 +1545,13 @@ RegistrarUsuario.run(RegistrarUsuario:34)
   <message>Screenshot is taken</message>
   <nestedLevel>1</nestedLevel>
   <escapedJava>false</escapedJava>
-  <property name="attachment">1615878946375.png</property>
+  <property name="attachment">1615883763469.png</property>
   <property name="testops-method-name">com.kms.katalon.core.mobile.keyword.builtin.TakeScreenshotKeyword.takeScreenshot</property>
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2021-03-16T01:15:47</date>
-  <millis>1615878947121</millis>
+  <date>2021-03-16T02:36:06</date>
+  <millis>1615883766308</millis>
   <sequence>165</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1544,8 +1562,8 @@ RegistrarUsuario.run(RegistrarUsuario:34)
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2021-03-16T01:15:47</date>
-  <millis>1615878947121</millis>
+  <date>2021-03-16T02:36:06</date>
+  <millis>1615883766308</millis>
   <sequence>166</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1554,12 +1572,12 @@ RegistrarUsuario.run(RegistrarUsuario:34)
   <message>Start action : closeApplication()</message>
   <nestedLevel>1</nestedLevel>
   <escapedJava>false</escapedJava>
-  <property name="startLine">59</property>
+  <property name="startLine">58</property>
   <property name="stepIndex">20</property>
 </record>
 <record>
-  <date>2021-03-16T01:15:50</date>
-  <millis>1615878950969</millis>
+  <date>2021-03-16T02:36:08</date>
+  <millis>1615883768306</millis>
   <sequence>167</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1572,8 +1590,8 @@ RegistrarUsuario.run(RegistrarUsuario:34)
   <property name="testops-execution-stacktrace"></property>
 </record>
 <record>
-  <date>2021-03-16T01:15:50</date>
-  <millis>1615878950970</millis>
+  <date>2021-03-16T02:36:08</date>
+  <millis>1615883768306</millis>
   <sequence>168</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1584,8 +1602,8 @@ RegistrarUsuario.run(RegistrarUsuario:34)
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2021-03-16T01:15:50</date>
-  <millis>1615878950970</millis>
+  <date>2021-03-16T02:36:08</date>
+  <millis>1615883768306</millis>
   <sequence>169</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1596,8 +1614,8 @@ RegistrarUsuario.run(RegistrarUsuario:34)
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2021-03-16T01:15:50</date>
-  <millis>1615878950970</millis>
+  <date>2021-03-16T02:36:08</date>
+  <millis>1615883768307</millis>
   <sequence>170</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
@@ -1608,9 +1626,349 @@ RegistrarUsuario.run(RegistrarUsuario:34)
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2021-03-16T01:15:50</date>
-  <millis>1615878950970</millis>
+  <date>2021-03-16T02:36:08</date>
+  <millis>1615883768414</millis>
   <sequence>171</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/RegistrarUsuario</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="name">Test Cases/RegistrarUsuario</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/RegistrarUsuario</property>
+  <property name="source">\Users\a2274333\Documents\GitHub\APP_Clientes_Android\APP_Clientes_Android\Test Cases\RegistrarUsuario.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2021-03-16T02:36:08</date>
+  <millis>1615883768424</millis>
+  <sequence>173</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>nombre = Andrea</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2021-03-16T02:36:08</date>
+  <millis>1615883768425</millis>
+  <sequence>174</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>appaterno = Martinez</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2021-03-16T02:36:08</date>
+  <millis>1615883768426</millis>
+  <sequence>175</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>apmaterno = Saucedo</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2021-03-16T02:36:08</date>
+  <millis>1615883768426</millis>
+  <sequence>176</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sexo = Mujer</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2021-03-16T02:36:08</date>
+  <millis>1615883768429</millis>
+  <sequence>177</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>telefono = 9998887722</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2021-03-16T02:36:08</date>
+  <millis>1615883768429</millis>
+  <sequence>178</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>correo = testing.syp@gmail.com</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2021-03-16T02:36:08</date>
+  <millis>1615883768429</millis>
+  <sequence>179</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>contrasena = Passw0rd</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2021-03-16T02:36:08</date>
+  <millis>1615883768430</millis>
+  <sequence>180</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : tap(findTestObject(&amp;quot;Registro/android.widget.Button - Registrarme&amp;quot;), 0)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">20</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2021-03-16T02:36:08</date>
+  <millis>1615883768523</millis>
+  <sequence>184</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2021-03-16T02:36:08</date>
+  <millis>1615883768523</millis>
+  <sequence>185</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : tap(findTestObject(&amp;quot;Registro/android.widget.Button - Registrarme&amp;quot;), 0)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2021-03-16T02:36:08</date>
+  <millis>1615883768534</millis>
+  <sequence>187</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/RegistrarUsuario FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: No driver found
+	at com.kms.katalon.core.mobile.helper.MobileScreenCaptor.getAnyAppiumDriver(MobileScreenCaptor.java:82)
+	at com.kms.katalon.core.mobile.helper.MobileScreenCaptor.take(MobileScreenCaptor.java:49)
+	at com.kms.katalon.core.helper.screenshot.ScreenCaptor.takeScreenshotAndGetAttributes(ScreenCaptor.java:37)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1354)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)
+	at RegistrarUsuario.run(RegistrarUsuario:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1615883514318.run(TempTestSuite1615883514318.groovy:39)
+</message>
+  <exception>
+    <message>com.kms.katalon.core.exception.StepFailedException: No driver found</message>
+    <frame>
+      <class>com.kms.katalon.core.mobile.helper.MobileScreenCaptor</class>
+      <method>getAnyAppiumDriver</method>
+      <line>82</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.mobile.helper.MobileScreenCaptor</class>
+      <method>take</method>
+      <line>49</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.helper.screenshot.ScreenCaptor</class>
+      <method>takeScreenshotAndGetAttributes</method>
+      <line>37</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain</class>
+      <method>stepFailed</method>
+      <line>40</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain</class>
+      <method>runKeyword</method>
+      <line>23</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.mobile.keyword.builtin.TapKeyword</class>
+      <method>tap</method>
+      <line>86</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.mobile.keyword.builtin.TapKeyword</class>
+      <method>execute</method>
+      <line>68</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordExecutor</class>
+      <method>executeKeywordForPlatform</method>
+      <line>73</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords</class>
+      <method>tap</method>
+      <line>1354</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>RegistrarUsuario</class>
+      <method>run</method>
+      <line>20</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>398</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>389</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>368</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>360</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>255</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>203</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>152</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>95</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1615883514318</class>
+      <method>run</method>
+      <line>39</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">com.kms.katalon.core.exception.StepFailedException: No driver found
+	at com.kms.katalon.core.mobile.helper.MobileScreenCaptor.getAnyAppiumDriver(MobileScreenCaptor.java:82)
+	at com.kms.katalon.core.mobile.helper.MobileScreenCaptor.take(MobileScreenCaptor.java:49)
+	at com.kms.katalon.core.helper.screenshot.ScreenCaptor.takeScreenshotAndGetAttributes(ScreenCaptor.java:37)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1354)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)
+	at RegistrarUsuario.run(RegistrarUsuario:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1615883514318.run(TempTestSuite1615883514318.groovy:39)
+</property>
+  <property name="failed.exception.class">com.kms.katalon.core.exception.StepFailedException</property>
+  <property name="failed.exception.message">No driver found</property>
+</record>
+<record>
+  <date>2021-03-16T02:36:08</date>
+  <millis>1615883768543</millis>
+  <sequence>189</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/RegistrarUsuario</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2021-03-16T02:36:08</date>
+  <millis>1615883768563</millis>
+  <sequence>190</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>startKeyword</method>
@@ -1620,21 +1978,21 @@ RegistrarUsuario.run(RegistrarUsuario:34)
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2021-03-16T01:15:51</date>
-  <millis>1615878951198</millis>
-  <sequence>413</sequence>
+  <date>2021-03-16T02:36:08</date>
+  <millis>1615883768830</millis>
+  <sequence>458</sequence>
   <level>INFO</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>logMessage</method>
   <thread>1</thread>
-  <message>Start generating PDF report folder at: /Users/a2274333/Documents/GitHub/APP_Clientes_Android/APP_Clientes_Android/Reports/20210316_011402/Flujo Base/Registro/20210316_011402...</message>
+  <message>Start generating PDF report folder at: /Users/a2274333/Documents/GitHub/APP_Clientes_Android/APP_Clientes_Android/Reports/20210316_023149/Flujo Base/Registro/20210316_023154...</message>
   <nestedLevel>0</nestedLevel>
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2021-03-16T01:15:56</date>
-  <millis>1615878956635</millis>
-  <sequence>414</sequence>
+  <date>2021-03-16T02:36:13</date>
+  <millis>1615883773803</millis>
+  <sequence>459</sequence>
   <level>INFO</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>logMessage</method>
@@ -1644,9 +2002,9 @@ RegistrarUsuario.run(RegistrarUsuario:34)
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2021-03-16T01:15:56</date>
-  <millis>1615878956635</millis>
-  <sequence>416</sequence>
+  <date>2021-03-16T02:36:13</date>
+  <millis>1615883773803</millis>
+  <sequence>461</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>endKeyword</method>
@@ -1656,233 +2014,14 @@ RegistrarUsuario.run(RegistrarUsuario:34)
   <escapedJava>false</escapedJava>
 </record>
 <record>
-  <date>2021-03-16T01:15:56</date>
-  <millis>1615878956644</millis>
-  <sequence>417</sequence>
+  <date>2021-03-16T02:36:13</date>
+  <millis>1615883773812</millis>
+  <sequence>462</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
   <method>endSuite</method>
   <thread>1</thread>
   <message>End Test Suite : Test Suites/Flujo Base/Registro</message>
-  <nestedLevel>0</nestedLevel>
-  <escapedJava>false</escapedJava>
-</record>
-</log><?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE log SYSTEM "logger.dtd">
-<log>
-<record>
-  <date>2021-03-16T01:29:52</date>
-  <millis>1615879792996</millis>
-  <sequence>1531</sequence>
-  <level>INFO</level>
-  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
-  <method>logMessage</method>
-  <thread>1</thread>
-  <message>Finding test data with id &amp;apos;Data Files/Registro/DatoRegistros&amp;apos;</message>
-  <nestedLevel>0</nestedLevel>
-  <escapedJava>false</escapedJava>
-</record>
-<record>
-  <date>2021-03-16T01:29:53</date>
-  <millis>1615879793022</millis>
-  <sequence>1532</sequence>
-  <level>INFO</level>
-  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
-  <method>logMessage</method>
-  <thread>1</thread>
-  <message>Test data is excel file, reading excel file</message>
-  <nestedLevel>0</nestedLevel>
-  <escapedJava>false</escapedJava>
-</record>
-<record>
-  <date>2021-03-16T01:29:53</date>
-  <millis>1615879793022</millis>
-  <sequence>1533</sequence>
-  <level>INFO</level>
-  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
-  <method>logMessage</method>
-  <thread>1</thread>
-  <message>Reading excel file with source file &amp;apos;/Users/a2274333/Documents/registro.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
-  <nestedLevel>0</nestedLevel>
-  <escapedJava>false</escapedJava>
-</record>
-<record>
-  <date>2021-03-16T01:31:03</date>
-  <millis>1615879863384</millis>
-  <sequence>1534</sequence>
-  <level>INFO</level>
-  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
-  <method>logMessage</method>
-  <thread>282</thread>
-  <message>Finding test data with id &amp;apos;Data Files/Registro/DatoRegistros&amp;apos;</message>
-  <nestedLevel>0</nestedLevel>
-  <escapedJava>false</escapedJava>
-</record>
-<record>
-  <date>2021-03-16T01:31:03</date>
-  <millis>1615879863389</millis>
-  <sequence>1535</sequence>
-  <level>INFO</level>
-  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
-  <method>logMessage</method>
-  <thread>282</thread>
-  <message>Test data is excel file, reading excel file</message>
-  <nestedLevel>0</nestedLevel>
-  <escapedJava>false</escapedJava>
-</record>
-<record>
-  <date>2021-03-16T01:31:03</date>
-  <millis>1615879863390</millis>
-  <sequence>1536</sequence>
-  <level>INFO</level>
-  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
-  <method>logMessage</method>
-  <thread>282</thread>
-  <message>Reading excel file with source file &amp;apos;/Users/a2274333/Documents/registro.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
-  <nestedLevel>0</nestedLevel>
-  <escapedJava>false</escapedJava>
-</record>
-<record>
-  <date>2021-03-16T01:37:46</date>
-  <millis>1615880266508</millis>
-  <sequence>2254</sequence>
-  <level>INFO</level>
-  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
-  <method>logMessage</method>
-  <thread>382</thread>
-  <message>Finding test data with id &amp;apos;Data Files/Registro/DatoRegistros&amp;apos;</message>
-  <nestedLevel>0</nestedLevel>
-  <escapedJava>false</escapedJava>
-</record>
-<record>
-  <date>2021-03-16T01:37:46</date>
-  <millis>1615880266510</millis>
-  <sequence>2255</sequence>
-  <level>INFO</level>
-  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
-  <method>logMessage</method>
-  <thread>382</thread>
-  <message>Test data is excel file, reading excel file</message>
-  <nestedLevel>0</nestedLevel>
-  <escapedJava>false</escapedJava>
-</record>
-<record>
-  <date>2021-03-16T01:37:46</date>
-  <millis>1615880266511</millis>
-  <sequence>2256</sequence>
-  <level>INFO</level>
-  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
-  <method>logMessage</method>
-  <thread>382</thread>
-  <message>Reading excel file with source file &amp;apos;/Users/a2274333/Documents/registro.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
-  <nestedLevel>0</nestedLevel>
-  <escapedJava>false</escapedJava>
-</record>
-<record>
-  <date>2021-03-16T02:15:15</date>
-  <millis>1615882515705</millis>
-  <sequence>3129</sequence>
-  <level>INFO</level>
-  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
-  <method>logMessage</method>
-  <thread>496</thread>
-  <message>Finding test data with id &amp;apos;Data Files/Registro/DatoRegistros&amp;apos;</message>
-  <nestedLevel>0</nestedLevel>
-  <escapedJava>false</escapedJava>
-</record>
-<record>
-  <date>2021-03-16T02:15:15</date>
-  <millis>1615882515708</millis>
-  <sequence>3130</sequence>
-  <level>INFO</level>
-  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
-  <method>logMessage</method>
-  <thread>496</thread>
-  <message>Test data is excel file, reading excel file</message>
-  <nestedLevel>0</nestedLevel>
-  <escapedJava>false</escapedJava>
-</record>
-<record>
-  <date>2021-03-16T02:15:15</date>
-  <millis>1615882515708</millis>
-  <sequence>3131</sequence>
-  <level>INFO</level>
-  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
-  <method>logMessage</method>
-  <thread>496</thread>
-  <message>Reading excel file with source file &amp;apos;/Users/a2274333/Documents/registro.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
-  <nestedLevel>0</nestedLevel>
-  <escapedJava>false</escapedJava>
-</record>
-<record>
-  <date>2021-03-16T02:28:50</date>
-  <millis>1615883330458</millis>
-  <sequence>3348</sequence>
-  <level>INFO</level>
-  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
-  <method>logMessage</method>
-  <thread>527</thread>
-  <message>Finding test data with id &amp;apos;Data Files/Registro/DatoRegistros&amp;apos;</message>
-  <nestedLevel>0</nestedLevel>
-  <escapedJava>false</escapedJava>
-</record>
-<record>
-  <date>2021-03-16T02:28:50</date>
-  <millis>1615883330463</millis>
-  <sequence>3349</sequence>
-  <level>INFO</level>
-  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
-  <method>logMessage</method>
-  <thread>527</thread>
-  <message>Test data is excel file, reading excel file</message>
-  <nestedLevel>0</nestedLevel>
-  <escapedJava>false</escapedJava>
-</record>
-<record>
-  <date>2021-03-16T02:28:50</date>
-  <millis>1615883330463</millis>
-  <sequence>3350</sequence>
-  <level>INFO</level>
-  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
-  <method>logMessage</method>
-  <thread>527</thread>
-  <message>Reading excel file with source file &amp;apos;/Users/a2274333/Documents/registro.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
-  <nestedLevel>0</nestedLevel>
-  <escapedJava>false</escapedJava>
-</record>
-<record>
-  <date>2021-03-16T02:31:49</date>
-  <millis>1615883509637</millis>
-  <sequence>3523</sequence>
-  <level>INFO</level>
-  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
-  <method>logMessage</method>
-  <thread>526</thread>
-  <message>Finding test data with id &amp;apos;Data Files/Registro/DatoRegistros&amp;apos;</message>
-  <nestedLevel>0</nestedLevel>
-  <escapedJava>false</escapedJava>
-</record>
-<record>
-  <date>2021-03-16T02:31:49</date>
-  <millis>1615883509639</millis>
-  <sequence>3524</sequence>
-  <level>INFO</level>
-  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
-  <method>logMessage</method>
-  <thread>526</thread>
-  <message>Test data is excel file, reading excel file</message>
-  <nestedLevel>0</nestedLevel>
-  <escapedJava>false</escapedJava>
-</record>
-<record>
-  <date>2021-03-16T02:31:49</date>
-  <millis>1615883509639</millis>
-  <sequence>3525</sequence>
-  <level>INFO</level>
-  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
-  <method>logMessage</method>
-  <thread>526</thread>
-  <message>Reading excel file with source file &amp;apos;/Users/a2274333/Documents/registro.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
   <nestedLevel>0</nestedLevel>
   <escapedJava>false</escapedJava>
 </record>
