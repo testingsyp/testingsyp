@@ -1,0 +1,77 @@
+[35m[Appium][39m Welcome to Appium v1.20.2
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   port: 62179
+[35m[Appium][39m   loglevel: info
+[35m[Appium][39m   tmpDir: /var/folders/fv/3lsmmqq16cj0hvn9c57pkryc0000gn/T//Katalon/Appium/Temp1615907496326
+[35m[Appium][39m   chromedriverPort: 62185
+[35m[Appium][39m Deprecated server args:
+[35m[Appium][39m   [31m--chromedriver-port[39m => --default-capabilities
+[35m[Appium][39m Default capabilities, which will be added to each request unless overridden by desired capabilities:
+[35m[Appium][39m   chromedriverPort: 62185
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:62179
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m9 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"/Users/a2274333/Downloads/AppClientes_327-clear-preprod-debug.apk","noReset":false,"deviceId":"","deviceName":"HUAWEI HUAWEI (Android 6.0.1)","fullReset":true,"platform":"ANDROID","newCommandTimeout":1800,"platformVersion":"6.0.1","autoGrantPermissions":true,"platformName":"Android","udid":"L5Y7N15A12003367","systemPort":62178},"capabilities":{"firstMatch":[{"appium:app":"/Users/a2274333/Downloads/AppClientes_327-clear-preprod-debug.apk","appium:autoGrantPermissions":true,"deviceId":"","appium:deviceName":"HUAWEI HUAWEI (Android 6.0.1)","appium:fullReset":true,"appium:newCommandTimeout":1800,"appium:noReset":false,"platform":"ANDROID","platformName":"android","appium:platformVersion":"6.0.1","appium:systemPort":62178,"appium:udid":"L5Y7N15A12003367"}]}}[39m
+[35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
+[35m[BaseDriver][39m   deviceId
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m   chromedriverPort
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m   DEPRECATION WARNING:
+[35m[Appium][39m 
+[35m[Appium][39m   The 'automationName' capability was not provided in the desired 
+[35m[Appium][39m   capabilities for this Android session
+[35m[Appium][39m 
+[35m[Appium][39m   Setting 'automationName=UiAutomator2' by default and using the 
+[35m[Appium][39m   UiAutomator2 Driver
+[35m[Appium][39m 
+[35m[Appium][39m   The next major version of Appium (2.x) will **require** the 
+[35m[Appium][39m   'automationName' capability to be set for all sessions on all 
+[35m[Appium][39m   platforms
+[35m[Appium][39m 
+[35m[Appium][39m   In previous versions (Appium <= 1.13.x), the default was 
+[35m[Appium][39m   'automationName=UiAutomator1'
+[35m[Appium][39m 
+[35m[Appium][39m   If you wish to use that automation instead of UiAutomator2, please 
+[35m[Appium][39m   add 'automationName=UiAutomator1' to your desired capabilities
+[35m[Appium][39m 
+[35m[Appium][39m   For more information about drivers, please visit 
+[35m[Appium][39m   http://appium.io/docs/en/about-appium/intro/ and explore the 
+[35m[Appium][39m   'Drivers' menu
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m 
+[35m[Appium][39m Appium v1.20.2 creating new AndroidUiautomator2Driver (v1.61.2) session
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   deviceId
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m Session created with session id: b500f36a-f91f-4240-af99-a3bb884a827b
+[35m[BaseDriver][39m Using local app '/Users/a2274333/Downloads/AppClientes_327-clear-preprod-debug.apk'
+[35m[ADB][39m Found 1 'build-tools' folders under '/Users/a2274333/.katalon/tools/android_sdk' (newest first):
+[35m[ADB][39m     /Users/a2274333/.katalon/tools/android_sdk/build-tools/29.0.3
+[35m[ADB][39m Using 'adb' from '/Users/a2274333/.katalon/tools/android_sdk/platform-tools/adb'
+[35m[AndroidDriver][39m Retrieving device list
+[35m[AndroidDriver][39m Using device: L5Y7N15A12003367
+[35m[ADB][39m Using 'adb' from '/Users/a2274333/.katalon/tools/android_sdk/platform-tools/adb'
+[35m[ADB][39m Package name: 'com.banorte.segurosdev'
+[35m[ADB][39m Main activity name: 'com.banorte.seguros.vistas.general.EmptyStateScreen'
+[35m[ADB][39m Caching the application at '/Users/a2274333/node_modules/appium/node_modules/io.appium.settings/apks/settings_apk-debug.apk' to '/data/local/tmp/appium_cache/f95199d4998f47493644c3dae404ba88006c3083.apk'
+[35m[ADB][39m The upload of 'settings_apk-debug.apk' (1.18 MB) took 359ms
+[35m[ADB][39m The installation of 'settings_apk-debug.apk' took 22686ms
+[35m[AndroidDriver][39m Granting permissions SET_ANIMATION_SCALE,CHANGE_CONFIGURATION,ACCESS_FINE_LOCATION to 'io.appium.settings'
+[35m[ADB][39m Using 'apksigner.jar' from '/Users/a2274333/.katalon/tools/android_sdk/build-tools/29.0.3/lib/apksigner.jar'
+[35m[ADB][39m '/Users/a2274333/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.17.4.apk' is signed with the default certificate
+[35m[ADB][39m '/Users/a2274333/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
+[35m[UiAutomator2][39m Server packages are going to be (re)installed
+[35m[UiAutomator2][39m Full packages reinstall is going to be performed
+[35m[ADB][39m io.appium.uiautomator2.server was successfully uninstalled
+[35m[ADB][39m Caching the application at '/Users/a2274333/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.17.4.apk' to '/data/local/tmp/appium_cache/a4dcc3776523c704e0d84d32fea2cd38470ecf92.apk'
+[35m[ADB][39m The upload of 'appium-uiautomator2-server-v4.17.4.apk' (1.91 MB) took 1017ms
+[35m[UiAutomator2][39m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: Trying to proxy a session command without session id
+[35m[ADB][39m com.banorte.segurosdev was not uninstalled, because it was not present on the device
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[31m500[39m [90m63174 ms - 1243[39m
+[35m[HTTP][39m [90m[39m
