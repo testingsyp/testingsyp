@@ -1,24 +1,24 @@
 [35m[Appium][39m Welcome to Appium v1.20.2
 [35m[Appium][39m Non-default server args:
-[35m[Appium][39m   port: 56740
+[35m[Appium][39m   port: 64638
 [35m[Appium][39m   loglevel: info
-[35m[Appium][39m   tmpDir: /var/folders/fv/3lsmmqq16cj0hvn9c57pkryc0000gn/T//Katalon/Appium/Temp1616744762678
-[35m[Appium][39m   chromedriverPort: 56741
+[35m[Appium][39m   tmpDir: /var/folders/fv/3lsmmqq16cj0hvn9c57pkryc0000gn/T//Katalon/Appium/Temp1616792823339
+[35m[Appium][39m   chromedriverPort: 64639
 [35m[Appium][39m Deprecated server args:
 [35m[Appium][39m   [31m--chromedriver-port[39m => --default-capabilities
 [35m[Appium][39m Default capabilities, which will be added to each request unless overridden by desired capabilities:
-[35m[Appium][39m   chromedriverPort: 56741
-[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:56740
+[35m[Appium][39m   chromedriverPort: 64639
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:64638
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m4 ms - 68[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m5 ms - 68[39m
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m2 ms - 68[39m
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
-[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"/Users/a2274333/Downloads/PRE/Seguros Banorte.ipa","noReset":true,"deviceId":"","deviceName":"iPhone de Jesus Fernando","fullReset":false,"wdaLocalPort":56753,"newCommandTimeout":1800,"realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole","platformVersion":"14.4.1","automationName":"XCUITest","waitForAppScript":"true;","platformName":"iOS","udid":"00008030-00014DC10EF2802E"},"capabilities":{"firstMatch":[{"appium:app":"/Users/a2274333/Downloads/PRE/Seguros Banorte.ipa","appium:automationName":"XCUITest","deviceId":"","appium:deviceName":"iPhone de Jesus Fernando","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"platformName":"ios","appium:platformVersion":"14.4.1","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole","appium:udid":"00008030-00014DC10EF2802E","appium:waitForAppScript":"true;","appium:wdaLocalPort":56753}]}}[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"/Users/a2274333/Downloads/Payload.ipa","noReset":true,"deviceId":"","deviceName":"iPhone de Jesus Fernando","fullReset":false,"wdaLocalPort":64650,"newCommandTimeout":1800,"realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole","platformVersion":"14.4.1","automationName":"XCUITest","waitForAppScript":"true;","platformName":"iOS","udid":"00008030-00014DC10EF2802E"},"capabilities":{"firstMatch":[{"appium:app":"/Users/a2274333/Downloads/Payload.ipa","appium:automationName":"XCUITest","deviceId":"","appium:deviceName":"iPhone de Jesus Fernando","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"platformName":"ios","appium:platformVersion":"14.4.1","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole","appium:udid":"00008030-00014DC10EF2802E","appium:waitForAppScript":"true;","appium:wdaLocalPort":64650}]}}[39m
 [35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
 [35m[BaseDriver][39m   deviceId
 [35m[BaseDriver][39m   realDeviceLogger
@@ -27,17 +27,17 @@
 [35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
 [35m[BaseDriver][39m   deviceId
 [35m[BaseDriver][39m   chromedriverPort
-[35m[BaseDriver][39m Session created with session id: 1f165375-8fc0-4087-bdfd-25fa2a8352ca
+[35m[BaseDriver][39m Session created with session id: 7600172e-3dbd-4e0c-a428-b2cc3bbf9084
 [35m[XCUITest][39m Determining device to run tests on: udid: '00008030-00014DC10EF2802E', real device: true
 [35m[XCUITest][39m Normalized platformVersion capability value '14.4.1' to '14.4'
-[35m[BaseDriver][39m Using local app '/Users/a2274333/Downloads/PRE/Seguros Banorte.ipa'
-[35m[BaseDriver][39m Unzipped local app to '/var/folders/fv/3lsmmqq16cj0hvn9c57pkryc0000gn/T/Katalon/Appium/Temp1616744762678/2021226-2640-17lelgv.xjqgl/AppClientes.app'
+[35m[BaseDriver][39m Using local app '/Users/a2274333/Downloads/Payload.ipa'
+[35m[BaseDriver][39m Unzipped local app to '/var/folders/fv/3lsmmqq16cj0hvn9c57pkryc0000gn/T/Katalon/Appium/Temp1616792823339/2021226-6496-1jtqw6i.nrgk/Runner.app'
 [35m[WebDriverAgent][39m Using WDA path: '/Users/a2274333/node_modules/appium/node_modules/appium-webdriveragent'
 [35m[WebDriverAgent][39m Using WDA agent: '/Users/a2274333/node_modules/appium/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
 [35m[XCUITest][39m Setting up real device
-[35m[XCUITest][39m Error installing app: Unexpected data: {"Error":"ApplicationVerificationFailed","ErrorDetail":-1,"ErrorDescription":"Failed to verify code signature of /var/installd/Library/Caches/com.apple.mobile.installd.staging/temp.ylMuOZ/extracted/AppClientes.app/PlugIns/DxNotificationExtension.appex : 0xe8008016 (The executable was signed with invalid entitlements.)"}
+[35m[XCUITest][39m Error installing app: Unexpected data: {"Error":"ApplicationVerificationFailed","ErrorDetail":-1,"ErrorDescription":"Failed to verify code signature of /var/installd/Library/Caches/com.apple.mobile.installd.staging/temp.B6HJxY/extracted/Runner.app : 0xe8008015 (A valid provisioning profile for this executable was not found.)"}
 [35m[XCUITest][39m Falling back to 'ios-deploy' usage
 [35m[DevCon Factory][39m Releasing connections for 00008030-00014DC10EF2802E device on any port number
 [35m[DevCon Factory][39m No cached connections have been found
-[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[31m500[39m [90m39509 ms - 1919[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[31m500[39m [90m29308 ms - 1867[39m
 [35m[HTTP][39m [90m[39m
